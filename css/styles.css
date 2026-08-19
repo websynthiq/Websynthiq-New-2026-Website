@@ -545,7 +545,7 @@ footer { border-top: 1px solid var(--line); padding: 64px 0 120px; background: v
   .nav-cta .btn { display: none; }
   .menu-btn { display: flex; }
   .hero-split .hero-grid { grid-template-columns: 1fr; }
-  .hero-split .hero-visual { order: -1; max-width: 420px; margin: 0 auto; }
+  .hero-split .hero-visual { display: none; }
   .hero-split { min-height: 0; padding-top: 120px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
