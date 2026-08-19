@@ -1,0 +1,73 @@
+# ============================================================
+# WebSynthiq — static hosting config (Hostinger / LiteSpeed / Apache)
+# No build step. This file is the entire deploy configuration.
+# ============================================================
+
+RewriteEngine On
+
+# ---------- 1. Force HTTPS ----------
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# ---------- 2. www -> non-www (canonicals are non-www) ----------
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# ---------- 3. Block internal working folders ----------
+# These live in the repo but must never be publicly reachable.
+RewriteRule ^(copy|execution|\.tmp|\.claude)(/|$) - [F,L]
+RewriteRule ^Websynthiq - [F,L]
+
+# Block source/doc file types anywhere in the tree
+<FilesMatch "\.(md|py|psd|ai|sketch|log)$">
+  Require all denied
+</FilesMatch>
+
+# ---------- 4. Extensionless URLs ----------
+# Canonicals point to /website-design, files are website-design.html.
+# /index.html -> /
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+# /page.html -> /page  (301 so only one URL is live, matching the canonical)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Internally serve /page from page.html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# ---------- 5. Compression ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
+  AddOutputFilterByType DEFLATE application/javascript application/xml
+  AddOutputFilterByType DEFLATE image/svg+xml font/ttf
+</IfModule>
+
+# ---------- 6. Caching ----------
+# Images and fonts are content-addressed by name and rarely change -> long.
+# CSS/JS have no cache-busting hashes, so keep them short or edits won't
+# reach returning visitors. HTML must never be cached.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html              "access plus 0 seconds"
+  ExpiresByType text/css               "access plus 1 day"
+  ExpiresByType application/javascript "access plus 1 day"
+  ExpiresByType image/jpeg             "access plus 1 year"
+  ExpiresByType image/png              "access plus 1 year"
+  ExpiresByType image/svg+xml          "access plus 1 year"
+  ExpiresByType font/ttf               "access plus 1 year"
+</IfModule>
+
+# ---------- 7. Security headers ----------
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always unset X-Powered-By
+</IfModule>
+
+# ---------- 8. Error page ----------
+# No 404.html exists yet. Add one, then uncomment:
+# ErrorDocument 404 /404.html
