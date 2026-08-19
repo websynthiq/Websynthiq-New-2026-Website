@@ -1,0 +1,337 @@
+/* Websynthiq — Colors & Type
+ * Foundation tokens. Import as a single stylesheet.
+ * Fonts loaded via Google Fonts CDN below (Saira Condensed for the WEB-style
+ * heavy condensed sans, Chakra Petch for the synthiq-style techy sans, Inter
+ * for body copy, JetBrains Mono for code).
+ *
+ * NOTE: source font files for the wordmark were not provided. The two display
+ * fonts here are the closest free Google Fonts matches to the logo's letter-
+ * forms. Flag for the user: please provide the original .ttf/.otf files if
+ * exact wordmark fidelity is needed.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+/* Brand display face — Orbitron — provided by user.
+ * Matches the geometric, squared-off quality of the "synthiq" wordmark and
+ * the cube-mark facets. Used for techno headings + display copy. */
+@font-face {
+  font-family: "Orbitron";
+  src: url("fonts/Orbitron-VariableFont_wght.ttf") format("truetype-variations"),
+       url("fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("fonts/Orbitron-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("fonts/Orbitron-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("fonts/Orbitron-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ──────────────────────────────────────────
+   * BRAND — sampled directly from the logo
+   * ────────────────────────────────────────── */
+  --brand-cobalt:      #2541B2;   /* primary — "WEB" + top facet of cube */
+  --brand-steel:       #1768AC;   /* secondary — lower cube + accents    */
+  --brand-ink:         #000000;   /* primary — "synthiq" wordmark         */
+  --brand-paper:       #FFFFFF;   /* canvas */
+
+  /* Tints / shades (deterministic ramps) */
+  --cobalt-50:  #EEF1FB;
+  --cobalt-100: #D6DDF4;
+  --cobalt-200: #A8B5E6;
+  --cobalt-300: #7A8DD8;
+  --cobalt-400: #4D65C5;
+  --cobalt-500: #2541B2;   /* = brand-cobalt */
+  --cobalt-600: #1F37A0;
+  --cobalt-700: #182B82;
+  --cobalt-800: #121F60;
+  --cobalt-900: #0B143E;
+
+  --steel-50:   #EAF2F9;
+  --steel-100:  #C8DCEE;
+  --steel-200:  #92B9DD;
+  --steel-300:  #5C97CC;
+  --steel-400:  #2E80BC;
+  --steel-500:  #1768AC;   /* = brand-steel */
+  --steel-600:  #115690;
+  --steel-700:  #0D4474;
+  --steel-800:  #093258;
+  --steel-900:  #06203B;
+
+  /* Neutrals — cool, slight blue lean to feel system-y */
+  --gray-0:    #FFFFFF;
+  --gray-50:   #F7F8FB;
+  --gray-100:  #EEF0F5;
+  --gray-200:  #DCE0E9;
+  --gray-300:  #B9C0CE;
+  --gray-400:  #8A93A6;
+  --gray-500:  #5E6678;
+  --gray-600:  #3F4655;
+  --gray-700:  #272D3A;
+  --gray-800:  #161A24;
+  --gray-900:  #0A0D14;
+
+  /* Semantic — tuned to harmonize with the cobalt/steel brand.
+   * Cooler greens, deeper amber, brand-coherent crimson. Info = steel. */
+  --success: #0F8C6B;   /* emerald-teal — pulls toward steel */
+  --warning: #B45309;   /* deep amber — quieter than safety orange */
+  --danger:  #B91C1C;   /* deep crimson — sits next to cobalt without clashing */
+  --info:    var(--steel-500);
+
+  /* Surfaces */
+  --bg:           var(--gray-0);
+  --bg-subtle:    var(--gray-50);
+  --bg-muted:     var(--gray-100);
+  --bg-inverse:   var(--gray-900);
+
+  --fg-1:         var(--gray-900);   /* primary text */
+  --fg-2:         var(--gray-700);   /* secondary text */
+  --fg-3:         var(--gray-500);   /* tertiary / labels */
+  --fg-4:         var(--gray-400);   /* placeholder / disabled */
+  --fg-on-brand:  #FFFFFF;
+  --fg-link:      var(--brand-cobalt);
+  --fg-link-hover:var(--cobalt-700);
+
+  --border-1:     var(--gray-200);
+  --border-2:     var(--gray-300);
+  --border-strong:var(--gray-700);
+
+  /* Typography */
+  --font-display:  "Saira Condensed", "Arial Narrow", system-ui, sans-serif; /* WEB-style heavy condensed */
+  --font-techno:   "Orbitron", "Eurostile", "Bahnschrift", system-ui, sans-serif; /* synthiq-style — brand-provided */
+  --font-body:     "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:     "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Type scale (1.250 — major third) */
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-30: 1.875rem;
+  --fs-36: 2.25rem;
+  --fs-48: 3rem;
+  --fs-60: 3.75rem;
+  --fs-72: 4.5rem;
+
+  /* Line heights */
+  --lh-tight: 1.05;
+  --lh-snug:  1.2;
+  --lh-base:  1.5;
+  --lh-loose: 1.7;
+
+  /* Letter spacing */
+  --tracking-tight:   -0.02em;
+  --tracking-normal:   0;
+  --tracking-wide:     0.04em;
+  --tracking-wider:    0.08em;
+  --tracking-widest:   0.16em;
+
+  /* Spacing — 4px base */
+  --sp-0: 0;
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+  --sp-20: 80px;
+  --sp-24: 96px;
+
+  /* Radii — modest; the brand is angular/blocky on display, soft on UI */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-pill: 999px;
+
+  /* Shadows — clean, slight cool tint */
+  --shadow-xs: 0 1px 2px rgba(13, 24, 60, 0.06);
+  --shadow-sm: 0 2px 4px rgba(13, 24, 60, 0.06), 0 1px 2px rgba(13, 24, 60, 0.04);
+  --shadow-md: 0 6px 16px rgba(13, 24, 60, 0.08), 0 2px 4px rgba(13, 24, 60, 0.04);
+  --shadow-lg: 0 16px 32px rgba(13, 24, 60, 0.10), 0 4px 8px rgba(13, 24, 60, 0.05);
+  --shadow-xl: 0 24px 48px rgba(13, 24, 60, 0.14), 0 8px 16px rgba(13, 24, 60, 0.06);
+  --shadow-focus: 0 0 0 3px rgba(37, 65, 178, 0.30);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+
+  /* Brand gradients — used sparingly, cube-inspired */
+  --grad-cobalt-steel: linear-gradient(135deg, var(--brand-cobalt) 0%, var(--brand-steel) 100%);
+  --grad-cube: linear-gradient(160deg, var(--brand-cobalt) 0%, var(--brand-cobalt) 45%, var(--brand-steel) 55%, var(--brand-steel) 100%);
+}
+
+/* ──────────────────────────────────────────
+ * Semantic element styles
+ * ────────────────────────────────────────── */
+
+html, body {
+  font-family: var(--font-body);
+  font-size: var(--fs-16);
+  line-height: var(--lh-base);
+  color: var(--fg-1);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Display headings — WEB-style: condensed, heavy, uppercase */
+.display, h1.display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--lh-tight);
+  font-size: var(--fs-72);
+  color: var(--fg-1);
+}
+
+h1 {
+  font-family: var(--font-techno);
+  font-weight: 700;
+  font-size: var(--fs-48);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg-1);
+}
+
+h2 {
+  font-family: var(--font-techno);
+  font-weight: 700;
+  font-size: var(--fs-36);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg-1);
+}
+
+h3 {
+  font-family: var(--font-techno);
+  font-weight: 600;
+  font-size: var(--fs-24);
+  line-height: var(--lh-snug);
+  color: var(--fg-1);
+}
+
+h4 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--fs-20);
+  line-height: var(--lh-snug);
+  color: var(--fg-1);
+}
+
+h5, h6 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--fs-16);
+  line-height: var(--lh-snug);
+  color: var(--fg-1);
+}
+
+p, .body {
+  font-family: var(--font-body);
+  font-size: var(--fs-16);
+  line-height: var(--lh-base);
+  color: var(--fg-2);
+  text-wrap: pretty;
+}
+
+.lede {
+  font-family: var(--font-body);
+  font-size: var(--fs-20);
+  line-height: var(--lh-base);
+  color: var(--fg-2);
+  font-weight: 400;
+}
+
+small, .caption {
+  font-size: var(--fs-12);
+  color: var(--fg-3);
+  letter-spacing: var(--tracking-wide);
+}
+
+.eyebrow {
+  font-family: var(--font-techno);
+  font-size: var(--fs-12);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-widest);
+  color: var(--brand-cobalt);
+}
+
+code, kbd, pre, .mono {
+  font-family: var(--font-mono);
+  font-size: 0.95em;
+}
+
+code {
+  background: var(--bg-muted);
+  border: 1px solid var(--border-1);
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.35em;
+  color: var(--cobalt-700);
+}
+
+a {
+  color: var(--fg-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+a:hover { color: var(--fg-link-hover); border-bottom-color: currentColor; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-1);
+  margin: var(--sp-8) 0;
+}
+
+/* The brand wordmark, as text — WEB blue, synthiq black */
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--fs-48);
+  letter-spacing: -0.01em;
+  line-height: 1;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: baseline;
+}
+.wordmark .web { color: var(--brand-cobalt); }
+.wordmark .synthiq {
+  color: var(--brand-ink);
+  font-family: var(--font-techno);
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+}

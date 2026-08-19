@@ -1,0 +1,23 @@
+<!doctype html>
+<!-- @dsCard group="Components" name="Form inputs" subtitle="Text, focus, select, error" viewport="700x220" --><html><head><meta charset="utf-8"><title>Inputs</title><link rel="stylesheet" href="_card.css"></head>
+<body class="card">
+<div class="label">Form inputs</div>
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px;">
+  <label style="display:flex; flex-direction:column; gap:4px;">
+    <span style="font-family:var(--font-body); font-size:12px; color:var(--fg-2); font-weight:500;">Email</span>
+    <input value="hello@websynthiq.dev" style="font-family:var(--font-body); font-size:14px; padding:9px 12px; border:1px solid #DCE0E9; border-radius:6px; outline:none; background:#fff; color:var(--fg-1);">
+  </label>
+  <label style="display:flex; flex-direction:column; gap:4px;">
+    <span style="font-family:var(--font-body); font-size:12px; color:var(--fg-2); font-weight:500;">Project name</span>
+    <input value="acme-marketing" style="font-family:var(--font-mono); font-size:14px; padding:9px 12px; border:1.5px solid #2541B2; border-radius:6px; outline:none; box-shadow:0 0 0 3px rgba(37,65,178,0.18); background:#fff;">
+  </label>
+  <label style="display:flex; flex-direction:column; gap:4px;">
+    <span style="font-family:var(--font-body); font-size:12px; color:var(--fg-2); font-weight:500;">Region</span>
+    <select style="font-family:var(--font-body); font-size:14px; padding:9px 12px; border:1px solid #DCE0E9; border-radius:6px; outline:none; background:#fff;"><option>Auto · global edge</option></select>
+  </label>
+  <label style="display:flex; flex-direction:column; gap:4px;">
+    <span style="font-family:var(--font-body); font-size:12px; color:#DC2626; font-weight:500;">Domain · invalid</span>
+    <input value="not a url" style="font-family:var(--font-body); font-size:14px; padding:9px 12px; border:1.5px solid #DC2626; border-radius:6px; outline:none; background:#fff; color:var(--fg-1);">
+  </label>
+</div>
+</body></html>
