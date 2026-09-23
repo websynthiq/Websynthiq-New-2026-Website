@@ -26,6 +26,8 @@
   <link rel="icon" href="assets/img/favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Marks JS as available before first paint; un-hides reveal content if main.js never loads -->
+  <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__wsMotion)document.documentElement.classList.remove("js")},3000)</script>
   <link rel="stylesheet" href="css/styles.css">
   <script type="application/ld+json">
 {
@@ -195,7 +197,7 @@
       </div>
       <div class="wrap hero-content">
         <span class="eyebrow">For home service, medical, auto &amp; trade businesses</span>
-        <h1 class="display">More booked jobs.<br><span class="accent">Fewer missed calls.</span></h1>
+        <h1 class="display"><span class="h-line"><span>More booked jobs.</span></span> <span class="h-line"><span class="accent">Fewer missed calls.</span></span></h1>
         <p class="lede">WebSynthiq is a digital marketing agency for service businesses. We build the four systems that turn strangers into booked appointments — a website that converts, an AI receptionist that answers every call, a review engine that puts you at the top of the map, and Meta ads that actually fill the calendar.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="#book">Book a Free Growth Audit</a>
@@ -228,21 +230,39 @@
         <div class="problem-list reveal">
           <div class="problem-item">
             <span class="num">Leak / 01</span>
+            <div class="leak-viz leak-call" data-motion aria-hidden="true">
+              <span class="lv-phone"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg></span>
+              <span class="lv-swap"><span class="lv-a">Ringing…</span><span class="lv-b">Missed · Voicemail</span></span>
+            </div>
             <h3>A caller reaches voicemail.</h3>
             <p>Most people who hit voicemail don't leave a message. They call the next company on the list instead — and book with whoever answers.</p>
           </div>
           <div class="problem-item">
             <span class="num">Leak / 02</span>
+            <div class="leak-viz leak-site" data-motion aria-hidden="true">
+              <span class="lv-words"><span>What</span><span>Where</span><span>Next?</span></span>
+              <span class="lv-bar"><span class="lv-fill"></span></span>
+              <span class="lv-time">5s</span>
+            </div>
             <h3>Your website looks fine but says nothing.</h3>
             <p>Visitors can't tell in five seconds what you do, where you work, or what happens if they click. So they leave.</p>
           </div>
           <div class="problem-item">
             <span class="num">Leak / 03</span>
+            <div class="leak-viz leak-reviews" data-motion aria-hidden="true">
+              <span class="lv-row lv-you"><span class="lv-who">You</span><span class="lv-track"><span class="lv-fill"></span></span><span class="lv-n">14</span></span>
+              <span class="lv-row lv-them"><span class="lv-who">Them</span><span class="lv-track"><span class="lv-fill"></span></span><span class="lv-n">340</span></span>
+            </div>
             <h3>You have 14 Google reviews. The competitor two towns over has 340.</h3>
             <p>Google reads that as an answer about who's better. So do customers.</p>
           </div>
           <div class="problem-item">
             <span class="num">Leak / 04</span>
+            <div class="leak-viz leak-ads" data-motion aria-hidden="true">
+              <span class="lv-in">40 clicks</span>
+              <svg class="lv-funnel" viewBox="0 0 96 32"><path d="M2 3H40L74 13V19L40 29H2"/><rect class="lv-dot" x="6" y="14" width="4" height="4"/><rect class="lv-dot" x="6" y="8" width="4" height="4"/><rect class="lv-dot" x="6" y="20" width="4" height="4"/></svg>
+              <span class="lv-out">0 jobs</span>
+            </div>
             <h3>You boosted a post once and got 40 clicks and zero jobs.</h3>
             <p>That wasn't a campaign. It was a donation.</p>
           </div>
@@ -268,11 +288,17 @@
             <p>Fast, mobile-first, built around one action: get in touch. Clear service pages, real photos, a quote form that takes 20 seconds, and click-to-call on every screen.</p>
             <span class="card-link">See website design</span>
           </a>
-          <a class="service-card" href="ai-receptionist.html">
+          <a class="service-card" href="ai-receptionist.html#demo">
             <span class="num">02 / AI Receptionist</span>
             <h3>Every call answered. 24/7. Even at 11pm on a Sunday.</h3>
+            <ol class="call-feed" data-motion aria-label="Example: how the AI receptionist handles a late-night call">
+              <li class="cf-ring">Incoming call · Sun 11:04 PM</li>
+              <li>Answered · 1st ring</li>
+              <li>Booked · Tue 9:00 AM · AC repair</li>
+              <li>Owner texted <span class="cf-check">✓</span></li>
+            </ol>
             <p>An AI voice agent that picks up on the first ring, answers real questions about your services, books the appointment straight into your calendar, and texts you the details. It doesn't call in sick.</p>
-            <span class="card-link">See how it works</span>
+            <span class="card-link">Hear it answer</span>
           </a>
           <a class="service-card" href="google-reviews.html">
             <span class="num">03 / Google Reviews</span>
@@ -286,6 +312,12 @@
             <p>Facebook and Instagram campaigns built around cost per booked job — not impressions, not reach, not engagement. Creative, targeting, tracking, and weekly optimization.</p>
             <span class="card-link">See Meta ads management</span>
           </a>
+          <!-- Each card's inner hairline lights up and runs to one shared outcome -->
+          <div class="sys-lines" data-motion aria-hidden="true">
+            <span class="sys-l sys-l1"></span><span class="sys-l sys-l2"></span><span class="sys-l sys-l3"></span><span class="sys-l sys-l4"></span>
+            <span class="sys-spine"></span>
+            <span class="sys-hub">Booked job</span>
+          </div>
         </div>
       </div>
     </section>
@@ -297,7 +329,7 @@
           <span class="eyebrow">The process</span>
           <h2 class="display">How working with us <span class="accent">actually goes</span></h2>
         </div>
-        <div class="steps reveal">
+        <div class="steps steps-fill reveal">
           <div class="step">
             <span class="num">01</span>
             <span class="step-when">15 minutes</span>
@@ -385,13 +417,13 @@
     </section>
 
     <!-- ============ FINAL CTA ============ -->
-    <section class="final-cta hairline-top" id="book">
+    <section class="final-cta hairline-top" id="book" data-motion>
       <div class="wrap">
         <span class="eyebrow">Free Growth Audit</span>
         <h2 class="display">Find out where your <span class="accent">leads are going</span></h2>
         <p class="lede">Fifteen minutes. We'll pull up your website, your Google profile, and your reviews, and show you what's leaking. You get the list either way — no pitch unless you ask for one.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="tel:+19162359935">Call (916) 235-9935</a>
+          <a class="btn btn-primary btn-ring" href="tel:+19162359935">Call (916) 235-9935</a>
           <a class="btn btn-ghost" href="mailto:info@websynthiq.com?subject=Free%20Growth%20Audit">Email us to book</a>
         </div>
         <div class="contact-line">
