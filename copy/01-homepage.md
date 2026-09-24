@@ -8,16 +8,16 @@
 ## SEO metadata
 
 **Title tag (53 chars):**
-`Marketing Systems for Service Businesses | WebSynthiq`
+`Marketing Systems for Service Businesses | WEBsynthiq`
 
 **Alternate titles:**
-1. `WebSynthiq | Digital Marketing for Service Businesses` (53)
+1. `WEBsynthiq | Digital Marketing for Service Businesses` (53)
 2. `Websites, AI Receptionists & Ads for Service Pros` (49)
-3. `More Booked Jobs for Service Businesses | WebSynthiq` (52)
-4. `Small Business Marketing That Books Jobs | WebSynthiq` (53)
+3. `More Booked Jobs for Service Businesses | WEBsynthiq` (52)
+4. `Small Business Marketing That Books Jobs | WEBsynthiq` (53)
 
 **Meta description (157 chars):**
-`WebSynthiq builds the four systems service businesses need to grow: a website that converts, a 24/7 AI receptionist, more Google reviews, and Meta ads that work.`
+`WEBsynthiq builds the four systems service businesses need to grow: a website that converts, a 24/7 AI receptionist, more Google reviews, and Meta ads that work.`
 
 **H1:** More booked jobs. Fewer missed calls.
 
@@ -30,7 +30,7 @@
 **H1:** More booked jobs. Fewer missed calls.
 
 **Subhead:**
-WebSynthiq is a digital marketing agency for service businesses. We build the four systems that turn strangers into booked appointments — a website that converts, an AI receptionist that answers every call, a review engine that puts you at the top of the map, and Meta ads that actually fill the calendar.
+WEBsynthiq is a digital marketing agency for service businesses. We build the four systems that turn strangers into booked appointments — a website that converts, an AI receptionist that answers every call, a review engine that puts you at the top of the map, and Meta ads that actually fill the calendar.
 
 **Primary CTA:** Book a Free Growth Audit
 **Under-button microcopy:** 15 minutes. No pitch unless you ask for one.
@@ -159,8 +159,8 @@ Fifteen minutes. We'll pull up your website, your Google profile, and your revie
 **Schema:** `Organization` + `WebSite` + `FAQPage`. Keep the `ProfessionalService` block from the old build and trim `hasOfferCatalog` to exactly these four services so the entity graph matches the new structure.
 
 **Image alt text:**
-- Hero: `Service business owner reviewing booked jobs from a WebSynthiq marketing system`
+- Hero: `Service business owner reviewing booked jobs from a WEBsynthiq marketing system`
 - Cards: `[Service name] for local service businesses`
-- Proof: `[Client name], owner of [business], WebSynthiq client`
+- Proof: `[Client name], owner of [business], WEBsynthiq client`
 
 **Above the fold must contain:** H1, subhead, primary CTA, phone number. Nothing else. On mobile, add a sticky bottom bar with `Call` and `Book Audit` — that alone usually moves service-business conversion more than any headline rewrite.

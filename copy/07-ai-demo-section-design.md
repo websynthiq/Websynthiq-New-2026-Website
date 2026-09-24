@@ -21,7 +21,7 @@
 ## 2. Assumptions
 
 1. (916) 313-8661 is a live, dedicated demo line where the AI agent answers, safe to publish publicly and permanently.
-2. The agent answers as WebSynthiq's own receptionist, not role-playing a fictional client business.
+2. The agent answers as WEBsynthiq's own receptionist, not role-playing a fictional client business.
 3. The line is available 24/7, matching the page's central claim.
 4. **No call tracking exists.** Verified: zero analytics, GTM, or pixels anywhere on the site. Demo calls will be invisible except in the line's own logs.
 5. Build is inline SVG + CSS, not a raster image. No CSS class collisions exist for the proposed names.
@@ -110,7 +110,7 @@ Entire mockup is one `<a href="tel:+19163138661">` — the whole phone is the ta
 - **Hover:** glow intensifies, `translateY(-4px)`, accept button brightens
 - **Active:** slight scale-down
 - **`:focus-visible`:** 3px cobalt ring around the device, matching DS `--shadow-focus`
-- Device link: `aria-label="Call the WebSynthiq AI receptionist demo line at (916) 313-8661"`
+- Device link: `aria-label="Call the WEBsynthiq AI receptionist demo line at (916) 313-8661"`
 - Glyphs `aria-hidden="true"`; avatar `alt=""` (caller name sits beside it)
 - The number below is a second link to the same href — mildly redundant for keyboard users, but it's the standard card pattern and it's what keeps the desktop fallback working
 

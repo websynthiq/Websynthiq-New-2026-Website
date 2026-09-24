@@ -1,5 +1,5 @@
 /* ============================================================
-   WEBSYNTHIQ — Void Gallery
+   WEBsynthiq — Void Gallery
    Architecture: dark immersive void, one luminous object,
    monumental tracked type, hairline structure, 0px radius.
    Brand: Websynthiq DS — cobalt #2541B2 / steel #1768AC,
@@ -42,7 +42,7 @@
   --white: #FFFFFF;
   --fog: #EDF0F7;
   --mist: #A8B0C2;
-  --ash: #6B7386;
+  --ash: #737B8F; /* ≥4.5:1 on --void, --void-2 and --panel (WCAG AA) */
 
   /* Hairlines */
   --line: rgba(237, 240, 247, 0.08);
@@ -91,6 +91,9 @@ body {
 }
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
+/* Keyboard focus: cobalt-300 is ≥6:1 on --void/--void-2/--panel (WCAG 3:1 for
+   non-text). Offset keeps the ring on the dark page, not on cobalt buttons. */
+:focus-visible { outline: 2px solid var(--cobalt-300); outline-offset: 3px; }
 ul { list-style: none; }
 ::selection { background: var(--cobalt); color: #fff; }
 
@@ -507,6 +510,8 @@ html.js .h-line > span.accent {
   overflow: hidden;
 }
 .service-card:hover { background: rgba(37, 65, 178, 0.05); }
+/* cards tile edge-to-edge, so draw the ring inside instead of over neighbours */
+.service-card:focus-visible { outline-offset: -4px; }
 .service-card::after {
   content: "";
   position: absolute; inset: 0;
@@ -759,7 +764,7 @@ html.js .bridge[data-motion] .arrow { animation: bridge-nudge 1s var(--ease-out)
 /* ---------- Footer ---------- */
 footer { border-top: 1px solid var(--line); padding: 64px 0 120px; background: var(--void); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 48px; }
-.footer-col h4 {
+.footer-col h3 {
   font-family: var(--f-techno); font-size: 10px; font-weight: 600;
   letter-spacing: 0.28em; text-transform: uppercase;
   color: var(--ash); margin-bottom: 20px;
@@ -1012,8 +1017,8 @@ html.js :is(.problem-list, .services-grid, .steps, .features, .faq).reveal > :no
 .phone-mock:hover { transform: translateY(-4px); box-shadow: 0 0 90px rgba(37, 65, 178, 0.45); }
 .phone-mock:active { transform: translateY(-1px) scale(0.995); }
 .phone-mock:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(37, 65, 178, 0.75), 0 0 90px rgba(37, 65, 178, 0.4);
+  outline-offset: 4px;
+  box-shadow: 0 0 90px rgba(37, 65, 178, 0.4);
 }
 
 .phone-island {
@@ -1104,4 +1109,111 @@ html.js :is(.problem-list, .services-grid, .steps, .features, .faq).reveal > :no
   .call-btn.accept::after { animation: none; }
   .phone-mock { transition: none; }
   .phone-mock:hover { transform: none; }
+}
+
+/* ---------- Growth Audit modal ----------
+   Native <dialog> (top layer, focus trap, Esc). Markup is injected by main.js. */
+html.audit-open { overflow: hidden; }
+html.audit-open .sticky-cta { display: none; }
+
+.audit-modal {
+  width: min(560px, calc(100% - 32px));
+  max-height: calc(100dvh - 48px);
+  margin: auto;
+  padding: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--panel);
+  color: var(--fog);
+  border: 1px solid var(--line-2);
+  box-shadow: 0 0 60px rgba(37, 65, 178, 0.22), 0 0 140px rgba(23, 104, 172, 0.12);
+}
+.audit-modal::backdrop {
+  background: rgba(4, 6, 12, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.audit-inner { position: relative; padding: 48px 40px 36px; display: flex; flex-direction: column; gap: 18px; }
+.audit-close {
+  position: absolute; top: 14px; right: 14px;
+  width: 40px; height: 40px;
+  display: grid; place-items: center;
+  background: transparent; color: var(--mist);
+  border: 1px solid var(--line-2);
+  cursor: pointer;
+  font-size: 18px; line-height: 1;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.audit-close:hover { border-color: var(--fog); color: var(--fog); }
+.audit-modal h2.display { font-size: clamp(2rem, 6vw, 2.8rem); padding-right: 40px; }
+.audit-sub { color: var(--mist); font-size: 15px; }
+
+.audit-form { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 20px; margin-top: 8px; }
+.audit-field { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.audit-field label {
+  font-family: var(--f-techno);
+  font-size: 10px; font-weight: 600;
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--mist);
+}
+.audit-field label .opt { color: var(--ash); letter-spacing: 0.12em; margin-left: 6px; }
+.audit-field input {
+  font: 400 16px/1.4 var(--f-body);
+  color: var(--fog);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line-2);
+  border-radius: 0;
+  padding: 8px 0 10px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.audit-field input::placeholder { color: var(--ash); }
+.audit-field input:focus { outline: none; border-bottom-color: var(--cobalt-300); box-shadow: 0 1px 0 var(--cobalt-300); }
+.audit-field input[aria-invalid="true"] { border-bottom-color: var(--decline-300); }
+.audit-err { min-height: 0; font-size: 12.5px; color: var(--decline-300); }
+.audit-err:empty { display: none; }
+.audit-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+.audit-alert {
+  grid-column: 1 / -1;
+  border: 1px solid rgba(248, 113, 113, 0.45);
+  background: rgba(185, 28, 28, 0.08);
+  color: var(--decline-300);
+  font-size: 14px; line-height: 1.5;
+  padding: 12px 14px;
+}
+.audit-alert a { color: var(--fog); font-weight: 600; }
+.audit-alert[hidden] { display: none; }
+.audit-submit { grid-column: 1 / -1; width: 100%; margin-top: 6px; }
+.audit-submit:disabled { opacity: 0.7; cursor: progress; }
+.audit-fine { grid-column: 1 / -1; font-size: 12.5px; color: var(--ash); text-align: center; }
+.audit-fine a { color: var(--cobalt-300); border-bottom: 1px solid rgba(122, 141, 216, 0.35); }
+.audit-fine a:hover { color: var(--fog); border-color: var(--fog); }
+
+.audit-success { align-items: center; text-align: center; padding-top: 64px; padding-bottom: 48px; }
+.audit-success[hidden], .audit-inner[hidden] { display: none; }
+.audit-check {
+  width: 64px; height: 64px;
+  display: grid; place-items: center;
+  border: 1px solid var(--line-cobalt);
+  color: var(--cobalt-300);
+  box-shadow: 0 0 40px rgba(37, 65, 178, 0.35);
+}
+.audit-check svg { width: 28px; height: 28px; }
+.audit-success p { color: var(--mist); max-width: 400px; font-size: 16px; line-height: 1.6; }
+.audit-success .btn { margin-top: 8px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .audit-modal[open] { animation: audit-in var(--dur-med) var(--ease-out); }
+  .audit-modal[open]::backdrop { animation: audit-fade var(--dur-med) ease; }
+  .audit-success:not([hidden]) { animation: audit-fade var(--dur-med) ease; }
+}
+@keyframes audit-in { from { opacity: 0; transform: translateY(12px); } }
+@keyframes audit-fade { from { opacity: 0; } }
+
+@media (max-width: 600px) {
+  .audit-modal { width: 100%; max-width: 100%; max-height: 100dvh; height: 100dvh; margin: 0; border: 0; }
+  .audit-inner { padding: 64px 20px 32px; }
+  .audit-form { grid-template-columns: 1fr; }
 }

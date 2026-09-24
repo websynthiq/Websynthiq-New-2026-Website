@@ -12,7 +12,7 @@
 `AI Receptionist for Small Business | Answer Every Call`
 
 **Alternate titles:**
-1. `AI Receptionist That Answers & Books 24/7 | WebSynthiq` (54)
+1. `AI Receptionist That Answers & Books 24/7 | WEBsynthiq` (54)
 2. `AI Phone Answering Service for Small Business` (45)
 3. `24/7 AI Receptionist for Service Businesses` (43)
 4. `Never Miss Another Customer Call | AI Receptionist` (50)
@@ -109,7 +109,7 @@ Every call recorded, transcribed, and pushed into your CRM. You finally get a re
 
 **H2:** AI receptionist vs. the alternatives
 
-| | Voicemail | Human answering service | Full-time receptionist | WebSynthiq AI receptionist |
+| | Voicemail | Human answering service | Full-time receptionist | WEBsynthiq AI receptionist |
 |---|---|---|---|---|
 | Answers after hours | No | Usually | No | Yes |
 | Handles simultaneous calls | No | Sometimes | No | Yes, unlimited |
@@ -212,11 +212,11 @@ Book 15 minutes and we'll run a live demo against your actual business — your 
 
 **Internal links out (4):** `/google-reviews` (×1), `/meta-ads` (×1), `/website-design` (×1), `/` (breadcrumb).
 
-**Schema:** `Service` (serviceType: "AI Receptionist", provider: WebSynthiq) + `FAQPage` + `BreadcrumbList`. The FAQ schema matters most on this page — "what is an ai receptionist" and "ai receptionist vs answering service" are heavily queried in AI search, and a well-marked-up FAQ is what gets cited.
+**Schema:** `Service` (serviceType: "AI Receptionist", provider: WEBsynthiq) + `FAQPage` + `BreadcrumbList`. The FAQ schema matters most on this page — "what is an ai receptionist" and "ai receptionist vs answering service" are heavily queried in AI search, and a well-marked-up FAQ is what gets cited.
 
 **Image alt text:**
 - Hero: `AI receptionist for small business answering a customer call`
-- Flow diagram: `How the WebSynthiq AI receptionist answers and books calls`
+- Flow diagram: `How the WEBsynthiq AI receptionist answers and books calls`
 - Dashboard: `Call transcripts and booked appointments dashboard`
 
 **Conversion notes:** Put an audio sample or a dial-in demo number above the fold. For voice AI, one 30-second listen converts better than the entire rest of the page — buyers cannot picture "natural sounding" until they hear it.

@@ -1,4 +1,4 @@
-# WebSynthiq — Meta & Image Metadata Reference
+# WEBsynthiq — Meta & Image Metadata Reference
 
 Everything in this document is **already applied** to the live HTML. This is the record of what shipped, plus tested alternates for when you want to A/B a title.
 
@@ -11,26 +11,26 @@ Validation rule used: titles 40–60 chars, descriptions 150–160 chars. A scri
 ### `/` — Homepage
 | Field | Value | Chars |
 |---|---|---|
-| Title | `Marketing Agency for Service Businesses \| WebSynthiq` | 52 |
+| Title | `Marketing Agency for Service Businesses \| WEBsynthiq` | 52 |
 | Description | `Four systems that grow service businesses: a website that converts, a 24/7 AI receptionist, more Google reviews, and Meta ads that book jobs. Free audit.` | 153 |
-| OG title | `More Booked Jobs. Fewer Missed Calls. \| WebSynthiq` | 50 |
+| OG title | `More Booked Jobs. Fewer Missed Calls. \| WEBsynthiq` | 50 |
 | OG image | `og-websynthiq-home.jpg` | 1200×630 |
 
 **Title alternates**
 1. `Digital Marketing Agency for Service Businesses` (46) — exact head-term match, drops brand
-2. `More Booked Jobs for Service Businesses \| WebSynthiq` (52) — benefit-forward, weaker keyword
-3. `Marketing Systems for Service Businesses \| WebSynthiq` (53) — the original; more distinctive, less searched
+2. `More Booked Jobs for Service Businesses \| WEBsynthiq` (52) — benefit-forward, weaker keyword
+3. `Marketing Systems for Service Businesses \| WEBsynthiq` (53) — the original; more distinctive, less searched
 
 ### `/website-design`
 | Field | Value | Chars |
 |---|---|---|
 | Title | `Small Business Web Design Services That Book Jobs` | 49 |
 | Description | `Small business web design services for service companies. Fast, mobile-first sites built to turn visitors into booked jobs. Free website audit, no pitch.` | 153 |
-| OG title | `Your Website Should Book Jobs, Not Just Look Nice \| WebSynthiq` | 62 |
+| OG title | `Your Website Should Book Jobs, Not Just Look Nice \| WEBsynthiq` | 62 |
 | OG image | `og-web-design.jpg` | 1200×630 |
 
 **Title alternates**
-1. `Small Business Web Design Services \| WebSynthiq` (46) — adds brand, loses the hook
+1. `Small Business Web Design Services \| WEBsynthiq` (46) — adds brand, loses the hook
 2. `Web Design for Service Businesses That Books Jobs` (48) — swaps head term
 3. `Lead-Generating Web Design for Small Business` (44) — different keyword angle
 
@@ -39,7 +39,7 @@ Validation rule used: titles 40–60 chars, descriptions 150–160 chars. A scri
 |---|---|---|
 | Title | `AI Receptionist for Small Business \| Never Miss a Call` | 54 |
 | Description | `An AI receptionist for small business that answers every call 24/7, books jobs into your calendar, and texts you the details. Live in days. Hear a demo.` | 152 |
-| OG title | `The Call You Miss Is the Job Your Competitor Books \| WebSynthiq` | 63 |
+| OG title | `The Call You Miss Is the Job Your Competitor Books \| WEBsynthiq` | 63 |
 | OG image | `og-ai-receptionist.jpg` | 1200×630 |
 
 **Title alternates**
@@ -54,12 +54,12 @@ Validation rule used: titles 40–60 chars, descriptions 150–160 chars. A scri
 |---|---|---|
 | Title | `Google Review Management Service \| Rank Higher on Maps` | 54 |
 | Description | `A Google review management service that asks every happy customer automatically, protects your rating, and lifts your map ranking. See your competitor gap.` | 155 |
-| OG title | `The Company With More Reviews Wins the Click \| WebSynthiq` | 57 |
+| OG title | `The Company With More Reviews Wins the Click \| WEBsynthiq` | 57 |
 | OG image | `og-google-reviews.jpg` | 1200×630 |
 
 **Title alternates**
 1. `Google Review Management Service for Local Business` (50) — the original; flat but keyword-clean
-2. `Get More Google Reviews, Automatically \| WebSynthiq` (50) — leads with the desire
+2. `Get More Google Reviews, Automatically \| WEBsynthiq` (50) — leads with the desire
 3. `Google Review Management \| Get More 5-Star Reviews` (49) — number/star trigger
 
 ### `/meta-ads`
@@ -67,7 +67,7 @@ Validation rule used: titles 40–60 chars, descriptions 150–160 chars. A scri
 |---|---|---|
 | Title | `Meta Ads Agency for Small Business \| Book More Jobs` | 51 |
 | Description | `A Meta ads agency for small business measuring one number: cost per booked job. Facebook and Instagram campaigns built, tracked, and optimized every week.` | 154 |
-| OG title | `Ads That Book Jobs. Not Ads That Get Likes. \| WebSynthiq` | 56 |
+| OG title | `Ads That Book Jobs. Not Ads That Get Likes. \| WEBsynthiq` | 56 |
 | OG image | `og-meta-ads.jpg` | 1200×630 |
 
 **Title alternates**
@@ -83,14 +83,14 @@ Twelve image files. Every hero image was renamed from a generic slug to a keywor
 
 | File | Size | Used on | Alt text |
 |---|---|---|---|
-| `marketing-systems-service-businesses.jpg` | 1200×1200 | `/` hero | Glowing cobalt glass cube representing the four WebSynthiq marketing systems for service businesses |
+| `marketing-systems-service-businesses.jpg` | 1200×1200 | `/` hero | Glowing cobalt glass cube representing the four WEBsynthiq marketing systems for service businesses |
 | `small-business-web-design-services.jpg` | 1200×1200 | `/website-design` hero | Floating glass browser panels representing small business web design services built to convert visitors into booked jobs |
 | `ai-receptionist-small-business.jpg` | 1200×1200 | `/ai-receptionist` hero | Glowing blue voice waveform sphere representing an AI receptionist answering small business calls 24/7 |
 | `google-review-management-service.jpg` | 1200×1200 | `/google-reviews` hero | Five glowing crystalline stars representing Google review management for local service businesses |
 | `meta-ads-agency-small-business.jpg` | 1200×1200 | `/meta-ads` hero | Ascending glowing bar chart representing Meta ads campaign growth for a service business |
-| `logo-mark.png` | 500×500 | nav + footer, all pages | WebSynthiq |
+| `logo-mark.png` | 500×500 | nav + footer, all pages | WEBsynthiq |
 | `favicon.png` | 500×500 | favicon | — |
-| `og-websynthiq-home.jpg` | 1200×630 | `/` social preview | Glowing cobalt glass cube representing the four WebSynthiq growth systems |
+| `og-websynthiq-home.jpg` | 1200×630 | `/` social preview | Glowing cobalt glass cube representing the four WEBsynthiq growth systems |
 | `og-web-design.jpg` | 1200×630 | `/website-design` social | Floating glass browser panels representing small business web design services |
 | `og-ai-receptionist.jpg` | 1200×630 | `/ai-receptionist` social | Glowing blue voice waveform sphere representing an AI receptionist answering calls |
 | `og-google-reviews.jpg` | 1200×630 | `/google-reviews` social | Five glowing crystalline stars representing Google review management for local business |
@@ -131,9 +131,9 @@ export const metadata = {
   alternates: { canonical: "https://websynthiq.com/ai-receptionist" },
   robots: { index: true, follow: true, "max-image-preview": "large" },
   openGraph: {
-    siteName: "WebSynthiq",
+    siteName: "WEBsynthiq",
     locale: "en_US",
-    title: "The Call You Miss Is the Job Your Competitor Books | WebSynthiq",
+    title: "The Call You Miss Is the Job Your Competitor Books | WEBsynthiq",
     description: "Answers on the first ring, 24/7. Books appointments into your calendar and texts you the details before you finish the job.",
     url: "https://websynthiq.com/ai-receptionist",
     images: [{ url: "/assets/img/og-ai-receptionist.jpg", width: 1200, height: 630, alt: "Glowing blue voice waveform sphere representing an AI receptionist answering calls" }],

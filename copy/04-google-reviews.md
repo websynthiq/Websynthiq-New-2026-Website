@@ -12,9 +12,9 @@
 `Google Review Management Service for Local Business`
 
 **Alternate titles:**
-1. `Get More Google Reviews, Automatically | WebSynthiq` (51)
-2. `Google Review Management Service | WebSynthiq` (45)
-3. `Review Generation for Service Businesses | WebSynthiq` (53)
+1. `Get More Google Reviews, Automatically | WEBsynthiq` (51)
+2. `Google Review Management Service | WEBsynthiq` (45)
+3. `Review Generation for Service Businesses | WEBsynthiq` (53)
 4. `More Google Reviews. Higher Map Rankings.` (41)
 
 **Meta description (158 chars):**
@@ -178,7 +178,7 @@ Fifteen minutes. We'll pull your Google profile and your three closest competito
 
 **Internal links out (4):** `/ai-receptionist` (×1), `/website-design` (×1), `/meta-ads` (×1), `/` (breadcrumb).
 
-**Schema:** `Service` (serviceType: "Reputation Management") + `FAQPage` + `BreadcrumbList`. Do **not** put `AggregateRating` schema on your own service page unless the rating is for WebSynthiq itself and is genuinely earned — self-serving review markup is a manual action risk.
+**Schema:** `Service` (serviceType: "Reputation Management") + `FAQPage` + `BreadcrumbList`. Do **not** put `AggregateRating` schema on your own service page unless the rating is for WEBsynthiq itself and is genuinely earned — self-serving review markup is a manual action risk.
 
 **Image alt text:**
 - Hero: `Google review management service dashboard showing review growth`

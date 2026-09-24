@@ -1,4 +1,4 @@
-# WebSynthiq — Schema Report
+# WEBsynthiq — Schema Report
 
 **Scope:** 5 pages. **Format:** JSON-LD only (Google's stated preference). Server-rendered in the initial HTML, not JS-injected — so no delayed-processing risk.
 

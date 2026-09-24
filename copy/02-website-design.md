@@ -12,9 +12,9 @@
 `Small Business Web Design Services That Book Jobs`
 
 **Alternate titles:**
-1. `Web Design for Service Businesses | WebSynthiq` (46)
+1. `Web Design for Service Businesses | WEBsynthiq` (46)
 2. `Lead-Generating Website Design for Small Business` (49)
-3. `Small Business Web Design Services | WebSynthiq` (47)
+3. `Small Business Web Design Services | WEBsynthiq` (47)
 4. `Websites That Turn Visitors Into Booked Jobs` (44)
 
 **Meta description (156 chars):**
@@ -56,7 +56,7 @@ Traffic isn't the problem when the page gives people nowhere to go.
 
 ## SECTION 3 — What you get
 
-**H2:** What's in a WebSynthiq website
+**H2:** What's in a WEBsynthiq website
 
 **Built to convert, not to win design awards**
 One clear action per page. Click-to-call in the header, in the hero, and pinned to the bottom of every mobile screen. A quote form short enough that people actually finish it.
@@ -165,11 +165,11 @@ Fifteen minutes. We'll open your site on the call, walk through what's costing y
 
 **Internal links out (4):** `/ai-receptionist` (×2 — body + closing), `/google-reviews` (×1), `/meta-ads` (×1), `/` (breadcrumb).
 
-**Schema:** `Service` (serviceType: "Web Design", provider: WebSynthiq) + `FAQPage` + `BreadcrumbList`.
+**Schema:** `Service` (serviceType: "Web Design", provider: WEBsynthiq) + `FAQPage` + `BreadcrumbList`.
 
 **Image alt text:**
 - Hero: `Small business web design services shown on mobile and desktop`
-- Portfolio: `[Business name] website built by WebSynthiq for [industry]`
+- Portfolio: `[Business name] website built by WEBsynthiq for [industry]`
 - Process: `Website design process for service businesses`
 
 **Conversion notes:** Show real screenshots of sites you've built above the fold if you have them — for web design specifically, portfolio proof outperforms any headline. Keep the quote form to name, phone, and "what do you need?" Every added field costs you completions.

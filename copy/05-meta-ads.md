@@ -13,8 +13,8 @@
 
 **Alternate titles:**
 1. `Facebook Ads Management for Service Businesses` (46)
-2. `Meta Ads Agency for Small Business | WebSynthiq` (47)
-3. `Facebook & Instagram Ads That Book Jobs | WebSynthiq` (52)
+2. `Meta Ads Agency for Small Business | WEBsynthiq` (47)
+3. `Facebook & Instagram Ads That Book Jobs | WEBsynthiq` (52)
 4. `Meta Ads Management for Local Service Businesses` (48)
 
 **Meta description (156 chars):**

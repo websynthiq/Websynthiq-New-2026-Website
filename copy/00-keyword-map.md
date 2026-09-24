@@ -1,4 +1,4 @@
-# WebSynthiq — Site Structure & Keyword Map
+# WEBsynthiq — Site Structure & Keyword Map
 
 **Targeting:** Nationwide (US). No city modifiers in body copy.
 **ICP:** Local service businesses — home services, HVAC, roofing, plumbing, auto, dental, med spas, contractors.
