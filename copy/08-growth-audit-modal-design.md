@@ -14,7 +14,7 @@ Status: **Approved design, ready for implementation** · 2026-09-24
 
 ## 2. Assumptions
 
-1. Required: name, business, phone, email. Optional: website, address.
+1. Required: name, business, phone, email, website. Optional: address.
 2. Validation: native constraints + light JS (10-digit US phone, email format, website normalized to `https://`).
 3. Spam: honeypot field + minimum 3s time-to-fill. No CAPTCHA. Webhook URL is public (acceptable; worst case = junk contacts).
 4. Metadata sent: page path, CTA id, UTM params (session-persisted), ISO timestamp.
@@ -51,7 +51,7 @@ const AUDIT_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/sNpBMwuPRAAzer
 - **Fields:** 2-column grid (1 column < 600px):
   - Owner name · Business name
   - Phone · Email
-  - Website (optional) · Address (optional)
+  - Website · Address (optional)
   - Orbitron small-caps labels (`--track-label`); transparent inputs with hairline bottom border → cobalt on focus; errors in `--decline-300` under the field; inputs ≥16px font.
 - **Submit:** full-width `.btn .btn-primary` "Get My Free Audit" → "Sending…" + disabled while in flight.
 - **Fine print:** "No spam. We only use this to prepare your audit. [Privacy Policy](privacy-policy.html)" in `--ash`.
