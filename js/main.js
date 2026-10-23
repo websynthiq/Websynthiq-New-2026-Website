@@ -116,7 +116,7 @@
           field('business', 'Business name', 'text', 'organization', true, 'Doe Plumbing') +
           field('phone', 'Phone', 'tel', 'tel', true, '(916) 555-1234') +
           field('email', 'Email', 'email', 'email', true, 'you@business.com') +
-          field('website', 'Website', 'url', 'url', true, 'yourbusiness.com') +
+          field('website', 'Website', 'url', 'url', false, 'yourbusiness.com') +
           field('address', 'Address', 'text', 'street-address', false, '123 Main St, City, ST') +
           '<div class="audit-hp" aria-hidden="true"><label>Leave this empty<input type="text" name="company_url" tabindex="-1" autocomplete="off"></label></div>' +
           '<div class="audit-alert" role="alert" hidden>Something went wrong sending your request. Please try again or call <a href="tel:+19162359935">(916) 235-9935</a>.</div>' +
@@ -167,9 +167,8 @@
       phone: function (v) { return phoneDigits(v).length === 10 ? '' : 'Enter a 10-digit phone number'; },
       email: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) ? '' : 'Enter a valid email'; },
       website: function (v) {
-        if (!v.trim()) return 'Enter your website';
         var w = cleanWebsite(v);
-        return w && /^https?:\/\/[^\s.]+\.[^\s]{2,}$/i.test(w) ? '' : 'Enter a valid website (e.g. yoursite.com)';
+        return !w || /^https?:\/\/[^\s.]+\.[^\s]{2,}$/i.test(w) ? '' : 'Enter a valid website (e.g. yoursite.com)';
       }
     };
     function check(input) {
