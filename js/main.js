@@ -299,4 +299,73 @@
       });
     });
   }
+
+  // ============ Book a Demo modal ============
+  // Any [data-demo-open] element opens the GoHighLevel booking widget in a dialog.
+  // Its href points at the booking page, so no-JS visitors still get there.
+  // The iframe only loads on first open, then stays loaded for repeat opens.
+  var DEMO_URL = 'https://link.websynthiq.com/widget/bookings/websynthiq/demo';
+
+  if (document.querySelector('[data-demo-open]') && window.HTMLDialogElement) {
+    var demo = document.createElement('dialog');
+    demo.className = 'demo-modal';
+    demo.setAttribute('aria-labelledby', 'demo-title');
+    demo.innerHTML =
+      '<button type="button" class="audit-close demo-close" data-demo-close aria-label="Close">&#x2715;</button>' +
+      '<aside class="demo-rail">' +
+        '<span class="eyebrow">Book a Demo</span>' +
+        '<h2 class="display" id="demo-title" tabindex="-1">See it <span class="accent">answer a call</span></h2>' +
+        '<p class="demo-sub">Pick a time that works. You\'ll talk with Fabian directly — the person who builds your system.</p>' +
+        '<ul class="demo-list">' +
+          '<li>A live AI receptionist call, start to booked job</li>' +
+          '<li>Where your website, reviews and ads are leaking leads</li>' +
+          '<li>Which plan fits, with the exact monthly math</li>' +
+        '</ul>' +
+        '<div class="demo-meta">' +
+          '<p>Month-to-month · No setup fees</p>' +
+          '<p>Rather talk now? <a href="tel:+19162359935">(916) 235-9935</a></p>' +
+        '</div>' +
+      '</aside>' +
+      '<div class="demo-stage">' +
+        '<div class="demo-loading" aria-hidden="true"><span class="demo-spin"></span>Loading calendar…</div>' +
+        '<iframe class="demo-frame" title="Book a demo with WEBsynthiq" loading="eager" allow="payment"></iframe>' +
+      '</div>';
+    document.body.appendChild(demo);
+
+    var frame = demo.querySelector('.demo-frame');
+    var stage = demo.querySelector('.demo-stage');
+    var demoOpener = null;
+    frame.addEventListener('load', function () { if (frame.src) stage.classList.add('is-loaded'); });
+
+    function openDemo(trigger) {
+      demoOpener = trigger;
+      if (!frame.src) frame.src = DEMO_URL;
+      document.documentElement.classList.add('audit-open');
+      demo.showModal();
+      // Focus the heading so screen readers announce it, without a ring on the close button
+      demo.querySelector('#demo-title').focus();
+    }
+
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-demo-open]');
+      if (!t) return;
+      e.preventDefault();
+      if (menu && menu.classList.contains('open')) btn.click();
+      openDemo(t);
+    });
+
+    demo.addEventListener('click', function (e) {
+      if (e.target.closest('[data-demo-close]')) return demo.close();
+      // Backdrop click lands on the dialog itself, outside its box
+      if (e.target === demo) {
+        var r = demo.getBoundingClientRect();
+        var inside = e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+        if (!inside) demo.close();
+      }
+    });
+    demo.addEventListener('close', function () {
+      document.documentElement.classList.remove('audit-open');
+      if (demoOpener && demoOpener.focus) demoOpener.focus();
+    });
+  }
 })();

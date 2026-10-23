@@ -672,6 +672,62 @@ html.js .steps-fill.reveal.in::before { transform: none; }
 .feature a { color: var(--cobalt-300); border-bottom: 1px solid rgba(122, 141, 216, 0.35); transition: color 0.2s, border-color 0.2s; }
 .feature a:hover { color: var(--fog); border-color: var(--fog); }
 
+/* ---------- Pricing (home) ---------- */
+.pricing-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); align-items: stretch; }
+.plan { position: relative; background: var(--void); padding: clamp(32px, 4vw, 52px); display: flex; flex-direction: column; gap: 20px; }
+.plan-featured { background: linear-gradient(180deg, rgba(37, 65, 178, 0.12), rgba(37, 65, 178, 0.02) 60%), var(--void); }
+.plan-featured::after { content: ""; position: absolute; inset: 0; border: 1px solid var(--line-cobalt); pointer-events: none; }
+.plan-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.plan .num { font-family: var(--f-techno); font-size: 10.5px; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: var(--cobalt-300); }
+.plan-badge { font-family: var(--f-techno); font-size: 9.5px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #fff; background: linear-gradient(135deg, var(--cobalt), var(--steel)); padding: 6px 10px; }
+.plan-price { display: flex; align-items: baseline; gap: 8px; }
+.plan-price .amt { font-family: var(--f-display); font-weight: 800; font-size: clamp(3.2rem, 6vw, 4.6rem); line-height: 0.9; color: var(--fog); }
+.plan-price .per { font-family: var(--f-techno); font-size: 11px; letter-spacing: var(--track-nav); text-transform: uppercase; color: var(--ash); }
+.plan-desc { font-size: 15px; color: var(--mist); }
+.plan-list { display: flex; flex-direction: column; gap: 12px; flex: 1; border-top: 1px solid var(--line); padding-top: 22px; }
+.plan-list li { position: relative; padding-left: 26px; font-size: 14.5px; color: var(--fog); line-height: 1.55; }
+.plan-list li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--accept-300); font-weight: 600; }
+.plan-bonus, .plan-note { font-size: 13.5px; line-height: 1.6; padding: 14px 16px; border-left: 2px solid var(--cobalt-400); background: rgba(37, 65, 178, 0.08); color: var(--mist); }
+.plan-note { border-left-color: var(--line-2); background: rgba(237, 240, 247, 0.03); }
+.plan-bonus strong, .plan-note strong { color: var(--fog); font-weight: 600; }
+.plan .btn { align-self: flex-start; }
+
+.addons { margin-top: 40px; border: 1px solid var(--line); }
+.addons-title { font-family: var(--f-techno); font-size: 11px; font-weight: 600; letter-spacing: var(--track-label); text-transform: uppercase; color: var(--cobalt-300); padding: 20px clamp(24px, 3vw, 36px); border-bottom: 1px solid var(--line); }
+.addon { padding: 22px clamp(24px, 3vw, 36px); display: flex; flex-direction: column; gap: 8px; }
+.addon + .addon { border-top: 1px solid var(--line); }
+.addon p { font-size: 14.5px; }
+.addon em { font-style: normal; color: var(--accept-300); }
+.addon-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 20px; flex-wrap: wrap; }
+.addon-head strong { font-weight: 600; font-size: 16px; color: var(--fog); }
+.addon-head span { font-family: var(--f-techno); font-size: 12px; letter-spacing: 0.08em; color: var(--fog); }
+
+.pricing-foot { margin-top: 32px; font-size: 15.5px; color: var(--mist); }
+.pricing-foot a, .faq-a a { color: var(--cobalt-300); border-bottom: 1px solid rgba(122, 141, 216, 0.35); transition: color 0.2s, border-color 0.2s; }
+.pricing-foot a:hover, .faq-a a:hover { color: var(--fog); border-color: var(--fog); }
+
+/* ---------- Founder (home) ---------- */
+.founder-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: clamp(32px, 6vw, 96px); align-items: start; }
+.founder-story { display: flex; flex-direction: column; gap: 20px; max-width: 680px; }
+.founder-story p { font-size: 16px; line-height: 1.75; color: var(--mist); }
+.founder-story .founder-lead { font-size: clamp(1.1rem, 1.5vw, 1.3rem); line-height: 1.65; color: var(--fog); }
+.founder-story .founder-close { color: var(--fog); font-weight: 600; padding-left: 18px; border-left: 2px solid var(--cobalt-400); }
+.founder-story .btn { align-self: flex-start; margin-top: 8px; }
+.founder-facts { border: 1px solid var(--line); background: var(--void); }
+.founder-facts > div { padding: 20px 24px; display: flex; flex-direction: column; gap: 6px; }
+.founder-facts > div + div { border-top: 1px solid var(--line); }
+.founder-facts dt { font-family: var(--f-techno); font-size: 10px; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: var(--cobalt-300); }
+.founder-facts dd { font-size: 15px; color: var(--fog); }
+.founder-facts a { border-bottom: 1px solid rgba(122, 141, 216, 0.35); transition: border-color 0.2s; }
+.founder-facts a:hover { border-color: var(--fog); }
+
+@media (max-width: 860px) {
+  .founder-grid { grid-template-columns: 1fr; }
+  .founder-story .btn { align-self: stretch; }
+  .pricing-grid { grid-template-columns: 1fr; }
+  .plan .btn { align-self: stretch; }
+}
+
 /* ---------- Panel section (lifted surface) ---------- */
 .panel-section { background: var(--void-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 
@@ -1211,6 +1267,98 @@ html.audit-open .sticky-cta { display: none; }
 }
 @keyframes audit-in { from { opacity: 0; transform: translateY(12px); } }
 @keyframes audit-fade { from { opacity: 0; } }
+
+/* ---------- Book a Demo modal ----------
+   Same dialog shell as the audit modal; split into a brand rail and a stage
+   that frames the GoHighLevel booking widget (a white page we can't restyle). */
+.demo-modal {
+  width: min(1080px, calc(100% - 48px));
+  height: min(760px, calc(100dvh - 48px));
+  max-width: none; max-height: none;
+  margin: auto; padding: 0;
+  overflow: hidden;
+  background: var(--panel);
+  color: var(--fog);
+  border: 1px solid var(--line-2);
+  box-shadow: 0 0 80px rgba(37, 65, 178, 0.28), 0 0 180px rgba(23, 104, 172, 0.14);
+}
+.demo-modal[open] { display: grid; grid-template-columns: minmax(280px, 360px) 1fr; }
+.demo-modal::backdrop {
+  background: rgba(4, 6, 12, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.demo-close { z-index: 3; background: rgba(10, 14, 26, 0.85); }
+
+.demo-rail {
+  position: relative;
+  padding: 48px 36px 36px;
+  display: flex; flex-direction: column; gap: 20px;
+  border-right: 1px solid var(--line);
+  background:
+    radial-gradient(120% 60% at 0% 0%, rgba(37, 65, 178, 0.28), transparent 60%),
+    radial-gradient(90% 50% at 100% 100%, rgba(23, 104, 172, 0.16), transparent 60%),
+    var(--void-2);
+  overflow-y: auto;
+}
+.demo-rail::after { content: ""; position: absolute; left: 0; top: 0; width: 2px; height: 120px; background: linear-gradient(to bottom, var(--cobalt-300), transparent); }
+.demo-modal h2.display { font-size: clamp(2.2rem, 3.6vw, 3rem); }
+.demo-sub { color: var(--mist); font-size: 15px; line-height: 1.65; }
+.demo-list { display: flex; flex-direction: column; gap: 14px; border-top: 1px solid var(--line); padding-top: 22px; }
+.demo-list li { position: relative; padding-left: 26px; font-size: 14.5px; line-height: 1.55; color: var(--fog); }
+.demo-list li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--accept-300); font-weight: 600; }
+.demo-meta { margin-top: auto; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; }
+.demo-meta p { font-size: 13px; color: var(--ash); }
+.demo-meta p:first-child { font-family: var(--f-techno); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--cobalt-300); }
+.demo-meta a { color: var(--fog); border-bottom: 1px solid rgba(122, 141, 216, 0.35); transition: border-color 0.2s; }
+.demo-meta a:hover { border-color: var(--fog); }
+
+/* The widget sits on a white card inset in the dark stage, so its own
+   light theme reads as a deliberate surface rather than a clash */
+/* Right gutter holds the close button so it never covers the calendar */
+.demo-stage { position: relative; padding: 20px 68px 20px 20px; background: var(--panel); min-width: 0; min-height: 0; }
+.demo-modal h2.display:focus { outline: none; }
+.demo-frame {
+  display: block; width: 100%; height: 100%;
+  border: 0; background: #fff;
+  box-shadow: 0 0 0 1px var(--line-2), 0 24px 60px rgba(0, 0, 0, 0.45);
+  opacity: 0; transition: opacity var(--dur-med) ease;
+}
+.demo-stage.is-loaded .demo-frame { opacity: 1; }
+.demo-loading {
+  position: absolute; inset: 20px 68px 20px 20px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  font-family: var(--f-techno); font-size: 10.5px; letter-spacing: var(--track-nav); text-transform: uppercase; color: var(--mist);
+  border: 1px solid var(--line);
+  transition: opacity var(--dur-med) ease;
+}
+.demo-stage.is-loaded .demo-loading { opacity: 0; pointer-events: none; }
+.demo-spin { width: 28px; height: 28px; border: 2px solid var(--line-2); border-top-color: var(--cobalt-300); border-radius: 50%; animation: demo-spin 0.9s linear infinite; }
+@keyframes demo-spin { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .demo-modal[open] { animation: audit-in var(--dur-med) var(--ease-out); }
+  .demo-modal[open]::backdrop { animation: audit-fade var(--dur-med) ease; }
+}
+
+/* Short laptop screens: drop the checklist before squeezing the calendar */
+@media (max-height: 680px) and (min-width: 861px) {
+  .demo-list { display: none; }
+}
+/* Tablet & phone: full-screen sheet, compact header over the calendar */
+@media (max-width: 860px) {
+  .demo-modal { width: 100%; height: 100dvh; margin: 0; border: 0; }
+  .demo-modal[open] { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .demo-rail { padding: 22px 72px 18px 20px; gap: 8px; border-right: 0; border-bottom: 1px solid var(--line); overflow: visible; }
+  .demo-rail::after { display: none; }
+  .demo-rail .eyebrow { font-size: 10px; }
+  .demo-modal h2.display { font-size: 1.9rem; }
+  .demo-sub { font-size: 13.5px; line-height: 1.5; }
+  .demo-list, .demo-meta { display: none; }
+  .demo-stage { padding: 0; }
+  .demo-frame { box-shadow: none; }
+  .demo-loading { inset: 0; border: 0; }
+}
 
 @media (max-width: 600px) {
   .audit-modal { width: 100%; max-width: 100%; max-height: 100dvh; height: 100dvh; margin: 0; border: 0; }
