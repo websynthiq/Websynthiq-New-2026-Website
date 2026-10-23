@@ -304,7 +304,7 @@
   // Any [data-demo-open] element opens the GoHighLevel booking widget in a dialog.
   // Its href points at the booking page, so no-JS visitors still get there.
   // The iframe only loads on first open, then stays loaded for repeat opens.
-  var DEMO_URL = 'https://link.websynthiq.com/widget/bookings/websynthiq/demo';
+  var DEMO_URL = 'https://link.websynthiq.com/widget/bookings/discover-your-new-website';
 
   if (document.querySelector('[data-demo-open]') && window.HTMLDialogElement) {
     var demo = document.createElement('dialog');
