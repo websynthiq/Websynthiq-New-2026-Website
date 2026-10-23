@@ -7,8 +7,8 @@
 
 ## SEO metadata
 
-**Title tag (53 chars):**
-`Marketing Systems for Service Businesses | WEBsynthiq`
+**Title tag (49 chars):**
+`Sacramento Digital Marketing Agency | WEBsynthiq`
 
 **Alternate titles:**
 1. `WEBsynthiq | Digital Marketing for Service Businesses` (53)
@@ -16,8 +16,8 @@
 3. `More Booked Jobs for Service Businesses | WEBsynthiq` (52)
 4. `Small Business Marketing That Books Jobs | WEBsynthiq` (53)
 
-**Meta description (157 chars):**
-`WEBsynthiq builds the four systems service businesses need to grow: a website that converts, a 24/7 AI receptionist, more Google reviews, and Meta ads that work.`
+**Meta description (160 chars):**
+`Sacramento digital marketing agency for service businesses: websites that convert, 24/7 AI receptionists, Google reviews and Meta ads. Free growth audit.`
 
 **H1:** More booked jobs. Fewer missed calls.
 
@@ -25,12 +25,12 @@
 
 ## SECTION 1 — Hero
 
-**Eyebrow:** For home service, medical, auto, and trade businesses
+**Eyebrow:** For Sacramento home service, medical, auto & trade businesses
 
 **H1:** More booked jobs. Fewer missed calls.
 
 **Subhead:**
-WEBsynthiq is a digital marketing agency for service businesses. We build the four systems that turn strangers into booked appointments — a website that converts, an AI receptionist that answers every call, a review engine that puts you at the top of the map, and Meta ads that actually fill the calendar.
+WEBsynthiq is a Sacramento digital marketing agency for local service businesses.
 
 **Primary CTA:** Book a Free Growth Audit
 **Under-button microcopy:** 15 minutes. No pitch unless you ask for one.

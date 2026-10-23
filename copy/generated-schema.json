@@ -4,7 +4,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
+          "@type": ["ProfessionalService", "Organization"],
           "@id": "https://websynthiq.com/#organization",
           "name": "WEBsynthiq",
           "url": "https://websynthiq.com/",
@@ -14,15 +14,50 @@
           "image": {
             "@id": "https://websynthiq.com/#logo"
           },
-          "description": "Digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
+          "description": "Sacramento digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
           "email": "info@websynthiq.com",
           "telephone": "+1-916-235-9935",
-          "areaServed": {
-            "@type": "Country",
-            "name": "United States"
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sacramento",
+            "addressRegion": "CA",
+            "addressCountry": "US"
           },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.5816,
+            "longitude": -121.4944
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Sacramento",
+              "sameAs": "https://en.wikipedia.org/wiki/Sacramento,_California"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Sacramento County"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "California"
+            },
+            {
+              "@type": "Country",
+              "name": "United States"
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/websynthiq",
+            "https://www.linkedin.com/company/websynthiq",
+            "https://www.instagram.com/websynthiq",
+            "https://x.com/websynthiq",
+            "https://github.com/websynthiq"
+          ],
           "knowsAbout": [
             "Web design for service businesses",
+            "Sacramento web design",
             "AI receptionists and voice agents",
             "Google Business Profile optimization",
             "Google review management",
@@ -35,7 +70,7 @@
               "telephone": "+1-916-235-9935",
               "email": "info@websynthiq.com",
               "contactType": "sales",
-              "areaServed": "US",
+              "areaServed": ["US", "CA"],
               "availableLanguage": "English"
             }
           ],
@@ -110,8 +145,8 @@
           "@type": "WebPage",
           "@id": "https://websynthiq.com/#webpage",
           "url": "https://websynthiq.com/",
-          "name": "Marketing Agency for Service Businesses",
-          "description": "Four systems that grow service businesses: a website that converts, a 24/7 AI receptionist, more Google reviews, and Meta ads that book jobs.",
+          "name": "Sacramento Digital Marketing Agency",
+          "description": "Sacramento digital marketing agency for service businesses: websites that convert, 24/7 AI receptionists, Google reviews and Meta ads. Free growth audit.",
           "isPartOf": {
             "@id": "https://websynthiq.com/#website"
           },
@@ -129,7 +164,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
+          "@type": ["ProfessionalService", "Organization"],
           "@id": "https://websynthiq.com/#organization",
           "name": "WEBsynthiq",
           "url": "https://websynthiq.com/",
@@ -139,15 +174,50 @@
           "image": {
             "@id": "https://websynthiq.com/#logo"
           },
-          "description": "Digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
+          "description": "Sacramento digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
           "email": "info@websynthiq.com",
           "telephone": "+1-916-235-9935",
-          "areaServed": {
-            "@type": "Country",
-            "name": "United States"
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sacramento",
+            "addressRegion": "CA",
+            "addressCountry": "US"
           },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.5816,
+            "longitude": -121.4944
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Sacramento",
+              "sameAs": "https://en.wikipedia.org/wiki/Sacramento,_California"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Sacramento County"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "California"
+            },
+            {
+              "@type": "Country",
+              "name": "United States"
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/websynthiq",
+            "https://www.linkedin.com/company/websynthiq",
+            "https://www.instagram.com/websynthiq",
+            "https://x.com/websynthiq",
+            "https://github.com/websynthiq"
+          ],
           "knowsAbout": [
             "Web design for service businesses",
+            "Sacramento web design",
             "AI receptionists and voice agents",
             "Google Business Profile optimization",
             "Google review management",
@@ -160,7 +230,7 @@
               "telephone": "+1-916-235-9935",
               "email": "info@websynthiq.com",
               "contactType": "sales",
-              "areaServed": "US",
+              "areaServed": ["US", "CA"],
               "availableLanguage": "English"
             }
           ],
@@ -253,8 +323,8 @@
           "@type": "WebPage",
           "@id": "https://websynthiq.com/website-design#webpage",
           "url": "https://websynthiq.com/website-design",
-          "name": "Small Business Web Design Services",
-          "description": "Fast, mobile-first websites for service businesses, built to turn visitors into booked jobs.",
+          "name": "Sacramento Web Design for Service Businesses",
+          "description": "Sacramento web design for service businesses. Fast, mobile-first websites built to turn visitors into booked jobs. Live in 2–4 weeks. Free website audit.",
           "isPartOf": {
             "@id": "https://websynthiq.com/#website"
           },
@@ -273,16 +343,31 @@
           "@type": "Service",
           "@id": "https://websynthiq.com/website-design#service",
           "serviceType": "Web Design",
-          "name": "Small Business Web Design Services",
-          "description": "Conversion-focused web design for service businesses: fast, mobile-first websites with dedicated service pages, click-to-call, and clean technical SEO.",
+          "name": "Sacramento Web Design for Service Businesses",
+          "description": "Sacramento web design for service businesses: fast, mobile-first websites with dedicated service pages, click-to-call, and clean technical SEO built to turn visitors into booked jobs.",
           "url": "https://websynthiq.com/website-design",
           "provider": {
             "@id": "https://websynthiq.com/#organization"
           },
-          "areaServed": {
-            "@type": "Country",
-            "name": "United States"
-          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Sacramento",
+              "sameAs": "https://en.wikipedia.org/wiki/Sacramento,_California"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Sacramento County"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "California"
+            },
+            {
+              "@type": "Country",
+              "name": "United States"
+            }
+          ],
           "audience": {
             "@type": "Audience",
             "audienceType": "Local service businesses",
@@ -301,7 +386,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
+          "@type": ["ProfessionalService", "Organization"],
           "@id": "https://websynthiq.com/#organization",
           "name": "WEBsynthiq",
           "url": "https://websynthiq.com/",
@@ -311,15 +396,50 @@
           "image": {
             "@id": "https://websynthiq.com/#logo"
           },
-          "description": "Digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
+          "description": "Sacramento digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
           "email": "info@websynthiq.com",
           "telephone": "+1-916-235-9935",
-          "areaServed": {
-            "@type": "Country",
-            "name": "United States"
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sacramento",
+            "addressRegion": "CA",
+            "addressCountry": "US"
           },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.5816,
+            "longitude": -121.4944
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Sacramento",
+              "sameAs": "https://en.wikipedia.org/wiki/Sacramento,_California"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Sacramento County"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "California"
+            },
+            {
+              "@type": "Country",
+              "name": "United States"
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/websynthiq",
+            "https://www.linkedin.com/company/websynthiq",
+            "https://www.instagram.com/websynthiq",
+            "https://x.com/websynthiq",
+            "https://github.com/websynthiq"
+          ],
           "knowsAbout": [
             "Web design for service businesses",
+            "Sacramento web design",
             "AI receptionists and voice agents",
             "Google Business Profile optimization",
             "Google review management",
@@ -332,7 +452,7 @@
               "telephone": "+1-916-235-9935",
               "email": "info@websynthiq.com",
               "contactType": "sales",
-              "areaServed": "US",
+              "areaServed": ["US", "CA"],
               "availableLanguage": "English"
             }
           ],
@@ -473,7 +593,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
+          "@type": ["ProfessionalService", "Organization"],
           "@id": "https://websynthiq.com/#organization",
           "name": "WEBsynthiq",
           "url": "https://websynthiq.com/",
@@ -483,15 +603,50 @@
           "image": {
             "@id": "https://websynthiq.com/#logo"
           },
-          "description": "Digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
+          "description": "Sacramento digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
           "email": "info@websynthiq.com",
           "telephone": "+1-916-235-9935",
-          "areaServed": {
-            "@type": "Country",
-            "name": "United States"
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sacramento",
+            "addressRegion": "CA",
+            "addressCountry": "US"
           },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.5816,
+            "longitude": -121.4944
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Sacramento",
+              "sameAs": "https://en.wikipedia.org/wiki/Sacramento,_California"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Sacramento County"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "California"
+            },
+            {
+              "@type": "Country",
+              "name": "United States"
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/websynthiq",
+            "https://www.linkedin.com/company/websynthiq",
+            "https://www.instagram.com/websynthiq",
+            "https://x.com/websynthiq",
+            "https://github.com/websynthiq"
+          ],
           "knowsAbout": [
             "Web design for service businesses",
+            "Sacramento web design",
             "AI receptionists and voice agents",
             "Google Business Profile optimization",
             "Google review management",
@@ -504,7 +659,7 @@
               "telephone": "+1-916-235-9935",
               "email": "info@websynthiq.com",
               "contactType": "sales",
-              "areaServed": "US",
+              "areaServed": ["US", "CA"],
               "availableLanguage": "English"
             }
           ],
@@ -645,7 +800,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
+          "@type": ["ProfessionalService", "Organization"],
           "@id": "https://websynthiq.com/#organization",
           "name": "WEBsynthiq",
           "url": "https://websynthiq.com/",
@@ -655,15 +810,50 @@
           "image": {
             "@id": "https://websynthiq.com/#logo"
           },
-          "description": "Digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
+          "description": "Sacramento digital marketing agency for service businesses: conversion-focused web design, 24/7 AI receptionists, Google review management, and Meta ads management.",
           "email": "info@websynthiq.com",
           "telephone": "+1-916-235-9935",
-          "areaServed": {
-            "@type": "Country",
-            "name": "United States"
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sacramento",
+            "addressRegion": "CA",
+            "addressCountry": "US"
           },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.5816,
+            "longitude": -121.4944
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Sacramento",
+              "sameAs": "https://en.wikipedia.org/wiki/Sacramento,_California"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Sacramento County"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "California"
+            },
+            {
+              "@type": "Country",
+              "name": "United States"
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/websynthiq",
+            "https://www.linkedin.com/company/websynthiq",
+            "https://www.instagram.com/websynthiq",
+            "https://x.com/websynthiq",
+            "https://github.com/websynthiq"
+          ],
           "knowsAbout": [
             "Web design for service businesses",
+            "Sacramento web design",
             "AI receptionists and voice agents",
             "Google Business Profile optimization",
             "Google review management",
@@ -676,7 +866,7 @@
               "telephone": "+1-916-235-9935",
               "email": "info@websynthiq.com",
               "contactType": "sales",
-              "areaServed": "US",
+              "areaServed": ["US", "CA"],
               "availableLanguage": "English"
             }
           ],

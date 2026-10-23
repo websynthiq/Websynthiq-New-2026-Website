@@ -11,9 +11,9 @@ Validation rule used: titles 40–60 chars, descriptions 150–160 chars. A scri
 ### `/` — Homepage
 | Field | Value | Chars |
 |---|---|---|
-| Title | `Marketing Agency for Service Businesses \| WEBsynthiq` | 52 |
-| Description | `Four systems that grow service businesses: a website that converts, a 24/7 AI receptionist, more Google reviews, and Meta ads that book jobs. Free audit.` | 153 |
-| OG title | `More Booked Jobs. Fewer Missed Calls. \| WEBsynthiq` | 50 |
+| Title | `Sacramento Digital Marketing Agency \| WEBsynthiq` | 49 |
+| Description | `Sacramento digital marketing agency for service businesses: websites that convert, 24/7 AI receptionists, Google reviews and Meta ads. Free growth audit.` | 160 |
+| OG title | `Sacramento Digital Marketing Agency \| WEBsynthiq` | 49 |
 | OG image | `og-websynthiq-home.jpg` | 1200×630 |
 
 **Title alternates**
@@ -24,9 +24,9 @@ Validation rule used: titles 40–60 chars, descriptions 150–160 chars. A scri
 ### `/website-design`
 | Field | Value | Chars |
 |---|---|---|
-| Title | `Small Business Web Design Services That Book Jobs` | 49 |
-| Description | `Small business web design services for service companies. Fast, mobile-first sites built to turn visitors into booked jobs. Free website audit, no pitch.` | 153 |
-| OG title | `Your Website Should Book Jobs, Not Just Look Nice \| WEBsynthiq` | 62 |
+| Title | `Sacramento Web Design for Service Businesses \| WEBsynthiq` | 57 |
+| Description | `Sacramento web design for service businesses. Fast, mobile-first websites built to turn visitors into booked jobs. Live in 2–4 weeks. Free website audit.` | 155 |
+| OG title | `Sacramento Web Design for Service Businesses \| WEBsynthiq` | 57 |
 | OG image | `og-web-design.jpg` | 1200×630 |
 
 **Title alternates**

@@ -9,7 +9,7 @@
 ## SEO metadata
 
 **Title tag (57 chars):**
-`Small Business Web Design Services That Book Jobs`
+`Sacramento Web Design for Service Businesses | WEBsynthiq`
 
 **Alternate titles:**
 1. `Web Design for Service Businesses | WEBsynthiq` (46)
@@ -17,8 +17,8 @@
 3. `Small Business Web Design Services | WEBsynthiq` (47)
 4. `Websites That Turn Visitors Into Booked Jobs` (44)
 
-**Meta description (156 chars):**
-`Small business web design services built for service companies. Fast, mobile-first sites designed around one thing: turning visitors into booked appointments.`
+**Meta description (155 chars):**
+`Sacramento web design for service businesses. Fast, mobile-first websites built to turn visitors into booked jobs. Live in 2–4 weeks. Free website audit.`
 
 **H1:** Your website should book jobs, not just look nice.
 
@@ -26,12 +26,12 @@
 
 ## SECTION 1 — Hero
 
-**Eyebrow:** Website Design
+**Eyebrow:** Sacramento Web Design
 
 **H1:** Your website should book jobs, not just look nice.
 
 **Subhead:**
-We build small business web design services around one job: turning the people who find you into people who call you. Fast, mobile-first, and honest about what you do — no stock photos of handshakes, no six-week discovery phase.
+Sacramento web design for service businesses built around one job: turning the people who find you into people who call you. Fast, mobile-first, and honest about what you do — no stock photos of handshakes, no six-week discovery phase.
 
 **Primary CTA:** Book a Free Growth Audit
 **Under-button microcopy:** We'll review your current site live on the call.
