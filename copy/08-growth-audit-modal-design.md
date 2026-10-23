@@ -39,7 +39,7 @@ Status: **Approved design, ready for implementation** · 2026-09-24
 ### 4.1 Config
 
 ```js
-const AUDIT_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/sNpBMwuPRAAzerr7ZWH5/webhook-trigger/v6SGBOB68uJ2gfEtDEJZ';
+const AUDIT_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/sNpBMwuPRAAzerr7ZWH5/webhook-trigger/m16mOY4whM3ljPTbjgi0';
 ```
 
 ### 4.2 Layout & Visuals

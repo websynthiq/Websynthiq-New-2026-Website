@@ -92,7 +92,7 @@
   // ============ Growth Audit modal ============
   // Any [data-audit-open] element opens it (href="#book" stays as the no-JS fallback).
   // Submissions POST JSON straight to the GoHighLevel Inbound Webhook (CORS allows it).
-  var AUDIT_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/sNpBMwuPRAAzerr7ZWH5/webhook-trigger/v6SGBOB68uJ2gfEtDEJZ';
+  var AUDIT_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/sNpBMwuPRAAzerr7ZWH5/webhook-trigger/m16mOY4whM3ljPTbjgi0';
   var UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
 
   // Keep landing-page UTMs for the session so they survive page-to-page navigation
@@ -261,11 +261,14 @@
         first_name: sp === -1 ? fullName : fullName.slice(0, sp),
         last_name: sp === -1 ? '' : fullName.slice(sp + 1),
         full_name: fullName,
+        name: fullName,
         business_name: f.business.value.trim(),
+        company_name: f.business.value.trim(),
         phone: '+1' + phoneDigits(f.phone.value),
         email: f.email.value.trim().toLowerCase(),
         website: cleanWebsite(f.website.value),
         address: f.address.value.trim(),
+        address1: f.address.value.trim(),
         source: 'Website - Growth Audit Modal',
         cta: cta,
         page: location.pathname,
