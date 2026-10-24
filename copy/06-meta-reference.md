@@ -25,7 +25,7 @@ Validation rule used: titles 40–60 chars, descriptions 150–160 chars. A scri
 | Field | Value | Chars |
 |---|---|---|
 | Title | `Sacramento Web Design for Service Businesses \| WEBsynthiq` | 57 |
-| Description | `Sacramento web design for service businesses. Fast, mobile-first websites built to turn visitors into booked jobs. Live in 2–4 weeks. Free website audit.` | 155 |
+| Description | `Sacramento web design for service businesses. Fast, mobile-first websites built to turn visitors into booked jobs. Live in 2–4 days. Free website audit.` | 155 |
 | OG title | `Sacramento Web Design for Service Businesses \| WEBsynthiq` | 57 |
 | OG image | `og-web-design.jpg` | 1200×630 |
 

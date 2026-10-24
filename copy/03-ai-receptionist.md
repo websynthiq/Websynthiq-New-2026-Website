@@ -31,7 +31,7 @@
 **H1:** The call you miss is the job your competitor books.
 
 **Subhead:**
-Our AI receptionist for small business answers on the first ring — at 2pm, at 2am, and while you're under a sink with both hands full. It answers real questions, books the appointment into your calendar, and texts you the details before you're done with the job.
+Our AI receptionist for small business answers on the first ring at 2pm, at 2am, and while you're under a sink with both hands full. It answers real questions, books the appointment into your calendar, and texts you the details before you're done with the job.
 
 **Primary CTA:** Book a Free Growth Audit
 **Under-button microcopy:** Hear a live demo answer a call on the spot ↓ *(anchor link to `#demo`)*
@@ -71,7 +71,7 @@ This is the same agent we build for clients, answering our own line. Ask it abou
 - Two calls come in at once and one of them gets voicemail.
 - Someone calls on Saturday with an emergency and hires whoever picks up.
 
-People calling a service business are ready to buy right now. They don't leave messages — they call the next listing. Every missed call is a job that was already yours, handed to whoever answered.
+People calling a service business are ready to buy right now. They don't leave messages, they call the next listing. Every missed call is a job that was already yours, handed to whoever answered.
 
 ---
 

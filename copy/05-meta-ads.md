@@ -31,7 +31,7 @@
 **H1:** Ads that book jobs. Not ads that get likes.
 
 **Subhead:**
-We're a Meta ads agency for small business, and we manage Facebook and Instagram campaigns against one number: what it costs you to get a booked job. Creative, targeting, tracking, and weekly optimization — reported in plain English.
+We're a Meta ads agency for small business, and we manage Facebook and Instagram campaigns against one number: what it costs you to get a booked job. Creative, targeting, tracking, and weekly optimization, reported in plain English.
 
 **Primary CTA:** Book a Free Growth Audit
 **Under-button microcopy:** We'll audit your ad account live and show you what's wasting spend.
@@ -45,10 +45,10 @@ We're a Meta ads agency for small business, and we manage Facebook and Instagram
 
 Most service businesses have already tried Facebook ads. Here's how it usually went:
 
-- **You boosted a post.** It reached 4,000 people, got 60 likes, and produced zero jobs. Boosting optimizes for engagement — engagement is not a customer.
+- **You boosted a post.** It reached 4,000 people, got 60 likes, and produced zero jobs. Boosting optimizes for engagement, not customers.
 - **The leads were junk.** Form fills from people 40 miles outside your area who don't remember opting in, because the ad promised nothing specific.
 - **Nobody called them back fast enough.** A Meta lead goes cold in minutes. If it sits in an inbox until evening, it's gone.
-- **You couldn't tell what worked.** No pixel, no conversion tracking, no offline conversion data — so Meta's algorithm was optimizing blind and so were you.
+- **You couldn't tell what worked.** No pixel, no conversion tracking, no offline conversion data, so Meta's algorithm was optimizing blind and so were you.
 
 The platform isn't the problem. Running it like a social media account instead of a lead machine is.
 
@@ -59,16 +59,16 @@ The platform isn't the problem. Running it like a social media account instead o
 **H2:** What we actually do with your ad account
 
 **Offer first, ads second**
-Most campaigns fail on the offer, not the targeting. We build the thing worth clicking — a specific service, a specific reason to act now, a specific price or guarantee — before we write a single ad.
+Most campaigns fail on the offer, not the targeting. We build the thing worth clicking before we write a single ad: a specific service, a specific reason to act now, a specific price or guarantee.
 
 **Creative built for a thumb, not a boardroom**
-Real photos and video from your jobs. Before-and-afters. Your team on camera. Native-looking, vertical-first content that stops the scroll — plus enough variations to stay ahead of creative fatigue.
+Real photos and video from your jobs. Before-and-afters. Your team on camera. Native-looking, vertical-first content that stops the scroll, plus enough variations to stay ahead of creative fatigue.
 
 **Targeting that respects the algorithm**
-Meta's delivery system beats manual micro-targeting in most local accounts. We set a clean radius around your service area, feed the system good conversion data, and let it find your buyers — instead of choking it with 14 overlapping ad sets on $12 a day.
+Meta's delivery system beats manual micro-targeting in most local accounts. We set a clean radius around your service area, feed the system good conversion data, and let it find your buyers instead of choking it with 14 overlapping ad sets on $12 a day.
 
 **Tracking that closes the loop**
-Meta Pixel plus the Conversions API, event setup, and call tracking, so booked jobs — not just form fills — get reported back. This is the difference between an algorithm that learns and one that guesses.
+Meta Pixel plus the Conversions API, event setup, and call tracking, so booked jobs, not just form fills, get reported back. This is the difference between an algorithm that learns and one that guesses.
 
 **Speed-to-lead built in**
 Every lead is texted and called within [X] minutes automatically, and routed to your [AI receptionist](/ai-receptionist) if nobody's free. The best campaign in the world loses to a two-hour callback delay.
@@ -134,11 +134,11 @@ Start with enough daily budget to generate roughly 50 conversions per month per 
 **How long before Meta ads work?**
 Expect two weeks of learning before performance stabilizes, and 30–60 days before you can judge the campaign fairly. Anyone who tells you day-three numbers mean something is reading noise.
 
-**Facebook ads or Google Ads — which is better for my business?**
+**Facebook ads or Google Ads: which is better for my business?**
 Google captures people already searching for you, which is why it usually wins for emergency and urgent services. Meta creates demand for services people put off — remodels, cosmetic work, upgrades, seasonal maintenance — and costs less per lead. Many service businesses need both; on the audit call we'll tell you which one to start with based on what you sell.
 
 **Why were my Facebook leads such bad quality?**
-Usually three causes: a vague offer that attracts everyone, no qualifying step in the form, and slow follow-up. We fix all three — a specific offer, qualifying questions, and automated contact within minutes.
+Usually three causes: a vague offer that attracts everyone, no qualifying step in the form, and slow follow-up. We fix all three: a specific offer, qualifying questions, and automated contact within minutes.
 
 **Do you handle the creative?**
 Yes. We write the copy and edit the video and images. We'll need raw footage and photos from your jobs — [state exactly what you need from the client and how they send it]. Real footage consistently outperforms stock.

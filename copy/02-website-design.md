@@ -18,7 +18,7 @@
 4. `Websites That Turn Visitors Into Booked Jobs` (44)
 
 **Meta description (155 chars):**
-`Sacramento web design for service businesses. Fast, mobile-first websites built to turn visitors into booked jobs. Live in 2–4 weeks. Free website audit.`
+`Sacramento web design for service businesses. Fast, mobile-first websites built to turn visitors into booked jobs. Live in 2–4 days. Free website audit.`
 
 **H1:** Your website should book jobs, not just look nice.
 
@@ -83,15 +83,15 @@ Your site plugs directly into the [AI receptionist](/ai-receptionist), your [rev
 
 ## SECTION 4 — How it works
 
-**H2:** From kickoff to live in 2–4 weeks
+**H2:** From kickoff to live in 2–4 days
 
 **1. Audit and plan (day 1)**
 We review your current site, your competitors, and what your best customers actually search for. You get the page structure and keyword map before anyone touches a design.
 
-**2. Design and build (weeks 1–3)**
+**2. Design and build (days 2–3)**
 You see the homepage design first and approve it. Then we build out the rest. One round of revisions is included at each stage — [confirm your actual revision policy].
 
-**3. Launch and measure (week 4)**
+**3. Launch and measure (day 4)**
 We migrate, test on real devices, set up call and form tracking, and hand you a dashboard. You'll know how many leads the site produced in month one, not just how many visitors it got.
 
 ---
@@ -129,7 +129,7 @@ No line-item surprises. You get the full number in writing before we start.
 Ours start at `[$X,XXX]` for a service business site with `[X]` pages. Price moves with the number of service pages, whether you need copywriting and photography, and whether you're adding booking or payment functionality. You get a fixed quote before any work begins.
 
 **How long does it take to build?**
-Two to four weeks for most service businesses, measured from the day we have your content and access. The most common delay is waiting on photos and logins — get those ready and we move fast.
+Two to four days for most service businesses, measured from the day we have your content and access. The most common delay is waiting on photos and logins — get those ready and we move fast.
 
 **Will my new website rank on Google?**
 The build gives you the technical foundation that ranking requires: speed, mobile usability, clean structure, schema, and a separate page per service. Rankings then come from ongoing signals — reviews, content, and links. A well-built site makes ranking possible; it doesn't make it automatic, and anyone promising you page one in 30 days is guessing.

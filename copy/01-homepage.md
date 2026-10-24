@@ -74,7 +74,7 @@ An AI voice agent that picks up on the first ring, answers real questions about 
 
 ### Card 3 — Google Reviews
 **Headline:** Become the obvious choice on the map
-An automated system that asks every happy customer for a review at the moment they're happiest — then helps you respond to all of them. More reviews, higher rating, better map rankings, more calls.
+An automated system that asks every happy customer for a review at the moment they're happiest, then helps you respond to all of them. More reviews, higher rating, better map rankings, more calls.
 **Link:** See review management → `/google-reviews`
 
 ### Card 4 — Meta Ads
@@ -91,7 +91,7 @@ Facebook and Instagram campaigns built around cost per booked job — not impres
 **Step 1 — Free Growth Audit (15 minutes)**
 We look at your website, your Google Business Profile, your reviews, and your ads while you're on the call. You leave with a specific list of what's leaking, whether or not you hire us.
 
-**Step 2 — Build (2–4 weeks)**
+**Step 2 — Build (2–4 days)**
 We build the systems you picked. You approve the important stuff, we handle the rest. No 90-day discovery phase. No 40-page strategy deck.
 
 **Step 3 — Run and improve (ongoing)**
@@ -128,7 +128,7 @@ No. Most clients start with the one leak that's costing them the most — usuall
 Website builds start at `[$X,XXX]`. The AI receptionist is `[$XXX]/month`. Review management is `[$XXX]/month`. Meta ads management is `[$XXX]/month` plus your ad spend. You'll get an exact number on the audit call, before you commit to anything.
 
 **How fast will I see results?**
-The AI receptionist starts capturing calls the day it goes live. Reviews move within 2–4 weeks. Meta ads need roughly two weeks to exit the learning phase. A new website typically takes 2–4 weeks to build, and its conversion improvement shows up in your first full month of traffic.
+The AI receptionist starts capturing calls the day it goes live. Reviews move within 2–4 weeks. Meta ads need roughly two weeks to exit the learning phase. A new website typically takes 2–4 days to build, and its conversion improvement shows up in your first full month of traffic.
 
 **Do you work with businesses in my area?**
 Yes. We're a US-based team working with service businesses nationwide, remotely. Your service area is a targeting setting, not a limitation.

@@ -31,7 +31,7 @@
 **H1:** The company with more reviews wins the click.
 
 **Subhead:**
-Our Google review management service asks every happy customer for a review automatically — right after the job, while they still love you. More reviews, a higher rating, and a map listing that shows up before your competitors'.
+Our Google review management service asks every happy customer for a review automatically right after the job, while they still love you. More reviews, a higher rating, and a map listing that shows up before your competitors'.
 
 **Primary CTA:** Book a Free Growth Audit
 **Under-button microcopy:** We'll compare your review profile to your top 3 competitors, live.
@@ -48,7 +48,7 @@ Two businesses show up in the map pack. One has 41 reviews at 4.3 stars. The oth
 Here's why most service businesses are stuck:
 
 - **Asking is awkward.** Owners hate it, techs forget, and the ask happens days late when the customer has moved on.
-- **The happy ones stay quiet.** Satisfied customers rarely think to post. Angry ones always do — which is how a great business ends up with a mediocre rating.
+- **The happy ones stay quiet.** Satisfied customers rarely think to post. Angry ones always do, which is how a great business ends up with a mediocre rating.
 - **Nobody responds.** Unanswered reviews, good and bad, signal a business that isn't paying attention.
 - **The profile is half-built.** Missing services, wrong hours, no photos, thin categories. Google can't rank what it can't read.
 
@@ -61,13 +61,13 @@ Reviews aren't a vanity metric for a local business. They're a ranking factor an
 **H2:** What the review system does for you
 
 **Asks automatically, at the right moment**
-The request goes out by text and email as soon as the job is marked complete — the window when people are most likely to actually write one. No one on your team has to remember.
+The request goes out by text and email as soon as the job is marked complete, the window when people are most likely to actually write one. No one on your team has to remember.
 
 **Makes it a two-tap job**
 One link straight to your Google review form. No account hunting, no searching for your business name. Every extra step cuts your response rate.
 
 **Routes unhappy customers to you first**
-Before a frustrated customer reaches Google, the flow gives them a way to tell you directly — so you get the chance to fix it. That's service recovery, not review gating: nobody is blocked from posting publicly, and Google's policies are respected. Fewer 1-stars, more solved problems.
+Before a frustrated customer reaches Google, the flow gives them a way to tell you directly, so you get the chance to fix it. That's service recovery, not review gating: nobody is blocked from posting publicly, and Google's policies are respected. Fewer 1-stars, more solved problems.
 
 **Responds to every review**
 We write and post replies to every review — [within X business hours]. Grateful for the good ones, calm and specific on the bad ones. Response rate is a trust signal for both Google and the human reading it.
@@ -76,7 +76,7 @@ We write and post replies to every review — [within X business hours]. Gratefu
 Correct categories, complete service list, service area, hours, Q&A, and fresh photos. This is the unglamorous work that moves map rankings and most agencies skip.
 
 **Shows the reviews where they sell**
-Live review feed on your [website](/website-design), embedded next to your quote form — the exact spot where visitors hesitate.
+Live review feed on your [website](/website-design), embedded next to your quote form, the exact spot where visitors hesitate.
 
 **Reports what changed**
 New reviews, average rating, map pack position, and calls from your Google profile. Every month, in plain English.
@@ -87,7 +87,7 @@ New reviews, average rating, map pack position, and calls from your Google profi
 
 **H2:** Why reviews move you up the map
 
-Google's local ranking guidance names three factors: relevance, distance, and prominence. You can't move your customers closer to your shop, and relevance is largely a profile setup problem. **Prominence is the one you can actively grow — and review count, review velocity, rating, and your responses all feed it.**
+Google's local ranking guidance names three factors: relevance, distance, and prominence. You can't move your customers closer to your shop, and relevance is largely a profile setup problem. **Prominence is the one you can actively grow, and review count, review velocity, rating, and your responses all feed it.**
 
 Practically, that means a steady stream of reviews beats a one-time burst of 50. A system that produces [X] reviews every week, forever, outperforms a review-drive campaign that ends in March.
 
@@ -139,13 +139,13 @@ Requests go out, we respond to everything that comes in, and you get a monthly r
 **H2:** Questions about Google review management
 
 **How do I get more Google reviews?**
-Ask every customer, ask immediately after the work is done, and make it a two-tap process. That's the whole formula — the difficulty is doing it consistently for every job, forever, which is exactly what automation solves.
+Ask every customer, ask immediately after the work is done, and make it a two-tap process. That's the whole formula. The difficulty is doing it consistently for every job, forever, which is exactly what automation solves.
 
 **How many Google reviews do I need to compete?**
 Look at the three businesses ranking above you in the map pack for your main service. Your target is to pass the highest of them, then keep going. In most local markets that gap is smaller than owners expect, and steady weekly velocity closes it faster than a one-time push.
 
 **Is it against Google's rules to ask for reviews?**
-Asking is explicitly allowed. What's not allowed is paying for reviews, offering incentives, writing them yourself, or blocking unhappy customers from posting. Our system does none of those. It asks everyone, and it gives dissatisfied customers a direct line to you first — which they're free to use or ignore.
+Asking is explicitly allowed. What's not allowed is paying for reviews, offering incentives, writing them yourself, or blocking unhappy customers from posting. Our system does none of those. It asks everyone, and it gives dissatisfied customers a direct line to you first, which they're free to use or ignore.
 
 **What do we do about a bad review?**
 Respond publicly, quickly, and without arguing: acknowledge, state the facts briefly, and move the conversation offline. Handled well, a bad review with a good response often builds more trust than a wall of perfect five stars. We write these for you.
