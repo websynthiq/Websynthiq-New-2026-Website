@@ -303,6 +303,18 @@
     });
   }
 
+  // ============ Click tracking ============
+  // Any [data-track] element sends its value as a GA4 event on click.
+  // gtag sends via beacon, so same-tab navigations (Stripe checkout) still record.
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest('[data-track]');
+    if (!t || typeof window.gtag !== 'function') return;
+    window.gtag('event', t.getAttribute('data-track'), {
+      link_url: t.href || '',
+      transport_type: 'beacon'
+    });
+  });
+
   // ============ Book a Demo modal ============
   // Any [data-demo-open] element opens the GoHighLevel booking widget in a dialog.
   // Its href points at the booking page, so no-JS visitors still get there.
