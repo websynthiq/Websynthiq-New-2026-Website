@@ -61,7 +61,7 @@ RewriteRule ^(.+?)/?$ $1.html [L]
 </IfModule>
 
 # Markdown copies for agents: correct type, never indexed as duplicates.
-AddType text/markdown .markdown
+AddType "text/markdown; charset=utf-8" .markdown
 AddCharset utf-8 .markdown .txt
 <FilesMatch "\.markdown$">
   <IfModule mod_headers.c>
@@ -79,12 +79,12 @@ AddCharset utf-8 .markdown .txt
 # gets the alternate; every HTML page gets llms.txt.
 <FilesMatch "\.html$">
   <IfModule mod_headers.c>
-    Header append Link "</llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+    Header append Link '</llms.txt>; rel="describedby"; type="text/plain"'
   </IfModule>
 </FilesMatch>
 <Files "index.html">
   <IfModule mod_headers.c>
-    Header append Link "</>; rel=\"alternate\"; type=\"text/markdown\""
+    Header append Link '</>; rel="alternate"; type="text/markdown"'
   </IfModule>
 </Files>
 
