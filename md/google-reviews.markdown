@@ -59,7 +59,7 @@ The request goes out by text and email as soon as the job is marked complete, th
 
 ### Makes it a two-tap job
 
-One link straight to your Google review form. No account hunting, no searching for your business name. Every extra step cuts your response rate.
+One link straight to your Google review form. No account hunting, no searching for your company on Google. Every extra step cuts your response rate.
 
 ### Routes unhappy customers to you first
 
@@ -75,7 +75,7 @@ Correct categories, complete service list, service area, hours, Q&A, and fresh p
 
 ### Shows the reviews where they sell
 
-Live review feed on your [website](https://websynthiq.com/website-design), embedded next to your quote form, the exact spot where visitors hesitate.
+Live review feed on your [custom business website](https://websynthiq.com/website-design), embedded next to your quote form, the exact spot where visitors hesitate.
 
 ### Reports what changed
 
@@ -193,5 +193,5 @@ Growth systems for service businesses. A website that converts, an AI receptioni
 - [info@websynthiq.com](mailto:info@websynthiq.com)
 - [Book a Free Growth Audit](https://websynthiq.com/google-reviews#book)
 
-© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/about#about) · [Contact](https://websynthiq.com/contact#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
+© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/#about) · [Contact](https://websynthiq.com/#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
 United States · Serving service businesses nationwide

@@ -22,7 +22,7 @@ These Terms and Conditions govern your use of this website and any information, 
 
 ## Privacy Policy
 
-Before you continue using our website, we advise you to read our [Privacy Policy](https://websynthiq.com/privacy-policy) (available at <https://websynthiq.com/privacy-policy>) regarding our user data collection. It will help you better understand our practices.
+Before you continue using our website, we advise you to read our [Privacy Policy](https://websynthiq.com/privacy-policy) regarding our user data collection. It will help you better understand our practices.
 
 ## Intellectual Property
 
@@ -94,9 +94,11 @@ Growth systems for service businesses. A website that converts, an AI receptioni
 
 ### Contact
 
+- [About Us](https://websynthiq.com/#about)
+- [Contact Us](https://websynthiq.com/#contact)
 - [(916) 235-9935](tel:+19162359935)
 - [info@websynthiq.com](mailto:info@websynthiq.com)
 - [Book a Free Growth Audit](https://websynthiq.com/#book)
 
-© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/about#about) · [Contact](https://websynthiq.com/contact#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
+© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/#about) · [Contact](https://websynthiq.com/#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
 United States · Serving service businesses nationwide

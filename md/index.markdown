@@ -159,7 +159,7 @@ Everything you need to capture, nurture, and book leads on autopilot.
 
 **Note:** Your website build is free, and it's yours to keep after three months of service, even if you cancel.
 
-[Get Started](https://buy.stripe.com/aFa5kE2FZ4IEdx30R20480a)
+[Get Core System](https://buy.stripe.com/aFa5kE2FZ4IEdx30R20480a)
 
 Call Capture System
 
@@ -175,7 +175,7 @@ Every call answered. Every lead booked. No ads required.
 
 **Note:** Your website build is free, and it's yours to keep after three months of service, even if you cancel.
 
-[Get Started](https://buy.stripe.com/8x2eVe0xR8YU8cJ0R20480b)
+[Get Call Capture](https://buy.stripe.com/8x2eVe0xR8YU8cJ0R20480b)
 
 All-Inclusive Growth System
 Most Popular
@@ -194,7 +194,7 @@ One flat bill. Includes up to 1,500 AI minutes a month, 50% more than a typical 
 
 **Meta Ads management included**, free, every month ($300/mo value). You just cover your ad budget to Meta, minimum $20/day.
 
-[Get Started](https://buy.stripe.com/28E9AU80j7UQ9gNczK0480c)
+[Get All-Inclusive](https://buy.stripe.com/28E9AU80j7UQ9gNczK0480c)
 
 Not sure which plan fits? Book a free demo first. We'll answer your questions and point you to the right system. No pressure.
 
@@ -306,5 +306,5 @@ Growth systems for service businesses. A website that converts, an AI receptioni
 - [info@websynthiq.com](mailto:info@websynthiq.com)
 - [Book a Free Growth Audit](https://websynthiq.com/#book)
 
-© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/about#about) · [Contact](https://websynthiq.com/contact#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
+© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/#about) · [Contact](https://websynthiq.com/#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
 United States · Serving service businesses nationwide

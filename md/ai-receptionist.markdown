@@ -216,5 +216,5 @@ Growth systems for service businesses. A website that converts, an AI receptioni
 - [info@websynthiq.com](mailto:info@websynthiq.com)
 - [Book a Free Growth Audit](https://websynthiq.com/ai-receptionist#book)
 
-© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/about#about) · [Contact](https://websynthiq.com/contact#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
+© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/#about) · [Contact](https://websynthiq.com/#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
 United States · Serving service businesses nationwide

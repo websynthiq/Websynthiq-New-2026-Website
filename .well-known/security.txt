@@ -1,0 +1,6 @@
+Contact: mailto:info@websynthiq.com
+Contact: tel:+1-916-235-9935
+Expires: 2027-10-30T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://websynthiq.com/.well-known/security.txt
+

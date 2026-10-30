@@ -33,8 +33,7 @@
   <meta name="twitter:image" content="https://websynthiq.com/assets/img/og-websynthiq-home.jpg">
   <meta name="twitter:image:alt" content="WEBsynthiq: More booked jobs. Fewer missed calls.">
   <link rel="icon" href="assets/img/favicon.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/img/marketing-systems-service-businesses.jpg" fetchpriority="high">
   <!-- Marks JS as available before first paint; un-hides reveal content if main.js never loads -->
   <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__wsMotion)document.documentElement.classList.remove("js")},3000)</script>
   <link rel="stylesheet" href="css/styles.css">
@@ -74,8 +73,10 @@
       ],
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Sacramento",
         "addressLocality": "Sacramento",
         "addressRegion": "CA",
+        "postalCode": "95833",
         "addressCountry": "US"
       },
       "geo": {
@@ -214,9 +215,11 @@
     {
       "@type": "FAQPage",
       "@id": "https://websynthiq.com/#faq",
+      "name": "WEBsynthiq Frequently Asked Questions",
       "mainEntity": [
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q1",
           "name": "Do I have to buy all four services?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -225,6 +228,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q2",
           "name": "How much does WEBsynthiq cost?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -233,6 +237,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q3",
           "name": "Who runs WEBsynthiq?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -241,6 +246,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q4",
           "name": "What are your hours?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -249,6 +255,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q5",
           "name": "How fast will I see results?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -257,6 +264,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q6",
           "name": "Do you work with businesses in my area?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -265,6 +273,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q7",
           "name": "What industries do you work with?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -273,6 +282,7 @@
         },
         {
           "@type": "Question",
+          "@id": "https://websynthiq.com/#faq-q8",
           "name": "What if I already have a website I like?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -290,15 +300,15 @@
   <!-- ============ NAV ============ -->
   <header class="nav">
     <div class="nav-inner">
-      <a href="index.html" class="brand" aria-label="WEBsynthiq home">
-        <img src="assets/img/logo-mark.png" alt="WEBsynthiq" width="34" height="34" decoding="async">
+      <a href="/" class="brand" aria-label="WEBsynthiq home">
+        <img src="assets/img/logo-mark-34.png" srcset="assets/img/logo-mark-34.png 1x, assets/img/logo-mark-68.png 2x" alt="WEBsynthiq" width="34" height="34" decoding="async">
         <span class="brand-word"><span class="web">WEB</span><span class="synthiq">synthiq</span></span>
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="website-design.html">Website Design</a>
-        <a href="ai-receptionist.html">AI Receptionist</a>
-        <a href="google-reviews.html">Google Reviews</a>
-        <a href="meta-ads.html">Meta Ads</a>
+        <a href="/website-design">Website Design</a>
+        <a href="/ai-receptionist">AI Receptionist</a>
+        <a href="/google-reviews">Google Reviews</a>
+        <a href="/meta-ads">Meta Ads</a>
       </nav>
       <div class="nav-cta">
         <a class="nav-phone" href="tel:+19162359935">(916) 235-9935</a>
@@ -310,10 +320,10 @@
     </div>
   </header>
   <nav class="mobile-menu" aria-label="Mobile">
-    <a href="website-design.html">Website Design</a>
-    <a href="ai-receptionist.html">AI Receptionist</a>
-    <a href="google-reviews.html">Google Reviews</a>
-    <a href="meta-ads.html">Meta Ads</a>
+    <a href="/website-design">Website Design</a>
+    <a href="/ai-receptionist">AI Receptionist</a>
+    <a href="/google-reviews">Google Reviews</a>
+    <a href="/meta-ads">Meta Ads</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
     <a href="tel:+19162359935">Call (916) 235-9935</a>
@@ -412,13 +422,13 @@
           <p class="lede">Take one. Take all four. They work alone and compound together.</p>
         </div>
         <div class="services-grid reveal">
-          <a class="service-card" href="website-design.html">
+          <a class="service-card" href="/website-design">
             <span class="num">01 / Website Design</span>
             <h3>A website that sells while you're on a job site</h3>
             <p>Fast, mobile-first, built around one action: get in touch. Clear service pages, real photos, a quote form that takes 20 seconds, and click-to-call on every screen.</p>
             <span class="card-link">See website design</span>
           </a>
-          <a class="service-card" href="ai-receptionist.html#demo">
+          <a class="service-card" href="/ai-receptionist#demo">
             <span class="num">02 / AI Receptionist</span>
             <h3>Every call answered. 24/7. Even at 11pm on a Sunday.</h3>
             <ol class="call-feed" data-motion aria-label="Example: how the AI receptionist handles a late-night call">
@@ -430,13 +440,13 @@
             <p>An AI voice agent that picks up on the first ring, answers real questions about your services, books the appointment straight into your calendar, and texts you the details. It doesn't call in sick.</p>
             <span class="card-link">Hear it answer</span>
           </a>
-          <a class="service-card" href="google-reviews.html">
+          <a class="service-card" href="/google-reviews">
             <span class="num">03 / Google Reviews</span>
             <h3>Become the obvious choice on the map</h3>
             <p>An automated system that asks every happy customer for a review at the moment they're happiest, then helps you respond to all of them. More reviews, higher rating, better map rankings, more calls.</p>
             <span class="card-link">See review management</span>
           </a>
-          <a class="service-card" href="meta-ads.html">
+          <a class="service-card" href="/meta-ads">
             <span class="num">04 / Meta Ads</span>
             <h3>Ads that produce booked jobs, not just cheap clicks</h3>
             <p>Facebook and Instagram campaigns built around cost per booked job — not impressions, not reach, not engagement. Creative, targeting, tracking, and weekly optimization.</p>
@@ -532,7 +542,7 @@
               <li>Automated Google review system &amp; ongoing SEO</li>
             </ul>
             <p class="plan-note"><strong>Note:</strong> Your website build is free, and it's yours to keep after three months of service, even if you cancel.</p>
-            <a class="btn btn-ghost" href="https://buy.stripe.com/aFa5kE2FZ4IEdx30R20480a" data-track="pricing_get_started_core">Get Started</a>
+            <a class="btn btn-ghost" href="https://buy.stripe.com/aFa5kE2FZ4IEdx30R20480a" data-track="pricing_get_started_core">Get Core System</a>
           </div>
           <div class="plan">
             <div class="plan-top">
@@ -548,7 +558,7 @@
               <li>Includes up to 750 AI minutes a month</li>
             </ul>
             <p class="plan-note"><strong>Note:</strong> Your website build is free, and it's yours to keep after three months of service, even if you cancel.</p>
-            <a class="btn btn-ghost" href="https://buy.stripe.com/8x2eVe0xR8YU8cJ0R20480b" data-track="pricing_get_started_call_capture">Get Started</a>
+            <a class="btn btn-ghost" href="https://buy.stripe.com/8x2eVe0xR8YU8cJ0R20480b" data-track="pricing_get_started_call_capture">Get Call Capture</a>
           </div>
           <div class="plan plan-featured">
             <div class="plan-top">
@@ -567,7 +577,7 @@
               <li>Ongoing local SEO optimization</li>
             </ul>
             <p class="plan-bonus"><strong>Meta Ads management included</strong>, free, every month ($300/mo value). You just cover your ad budget to Meta, minimum $20/day.</p>
-            <a class="btn btn-primary" href="https://buy.stripe.com/28E9AU80j7UQ9gNczK0480c" data-track="pricing_get_started_all_inclusive">Get Started</a>
+            <a class="btn btn-primary" href="https://buy.stripe.com/28E9AU80j7UQ9gNczK0480c" data-track="pricing_get_started_all_inclusive">Get All-Inclusive</a>
           </div>
         </div>
         <div class="pricing-demo reveal">
@@ -681,8 +691,8 @@
     <div class="wrap">
       <div class="footer-grid">
         <div class="footer-col footer-brand">
-          <a href="index.html" class="brand">
-            <img src="assets/img/logo-mark.png" alt="WEBsynthiq" width="34" height="34" decoding="async">
+          <a href="/" class="brand">
+            <img src="assets/img/logo-mark-34.png" srcset="assets/img/logo-mark-34.png 1x, assets/img/logo-mark-68.png 2x" alt="WEBsynthiq" width="34" height="34" loading="lazy" decoding="async">
             <span class="brand-word"><span class="web">WEB</span><span class="synthiq">synthiq</span></span>
           </a>
           <p>Growth systems for service businesses. A website that converts, an AI receptionist that answers, reviews that rank, and ads that book jobs.</p>
@@ -690,10 +700,10 @@
         <div class="footer-col">
           <h3>Services</h3>
           <ul>
-            <li><a href="website-design.html">Website Design</a></li>
-            <li><a href="ai-receptionist.html">AI Receptionist</a></li>
-            <li><a href="google-reviews.html">Google Reviews</a></li>
-            <li><a href="meta-ads.html">Meta Ads</a></li>
+            <li><a href="/website-design">Website Design</a></li>
+            <li><a href="/ai-receptionist">AI Receptionist</a></li>
+            <li><a href="/google-reviews">Google Reviews</a></li>
+            <li><a href="/meta-ads">Meta Ads</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -708,7 +718,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2026 WEBsynthiq. All rights reserved. · <a href="/about#about">About</a> · <a href="/contact#contact">Contact</a> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-and-conditions.html">Terms &amp; Conditions</a></span>
+        <span>© 2026 WEBsynthiq. All rights reserved. · <a href="#about">About</a> · <a href="#contact">Contact</a> · <a href="/privacy-policy">Privacy Policy</a> · <a href="/terms-and-conditions">Terms &amp; Conditions</a></span>
         <span>United States · Serving service businesses nationwide</span>
       </div>
     </div>

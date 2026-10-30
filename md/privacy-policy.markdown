@@ -1,6 +1,6 @@
-# Privacy Policy | WEBsynthiq
+# Privacy Policy & SMS Terms | WEBsynthiq
 
-> How WEBsynthiq (Elevate Media Agency LLC) collects, uses, and protects your personal information, including our SMS program terms and opt-out instructions.
+> How WEBsynthiq (Elevate Media Agency LLC) collects, uses, and protects your personal data, including our SMS program terms and opt-out instructions.
 
 Canonical: https://websynthiq.com/privacy-policy
 
@@ -14,31 +14,31 @@ Effective Date: June 19, 2025
 
 ## Welcome
 
-Elevate Media Agency LLC, doing business as WEBsynthiq ("we," "us," or "our"), respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, engage with our services, or participate in our SMS programs.
+Elevate Media Agency LLC, doing business as WEBsynthiq ("we," "us," or "our"), respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your details when you visit our website, engage with our services, or participate in our SMS programs.
 
-By using our services or providing your information, you agree to the terms outlined in this Privacy Policy. If you do not agree, please discontinue use of our services.
+By using our services or providing your details, you agree to the practices outlined in this Privacy Policy and our [Terms and Conditions](https://websynthiq.com/terms-and-conditions). If you do not agree, please discontinue use of our services.
 
-## Information We Collect
+## Data We Collect
 
-### Personal Information
+### Personal Details
 
-We may collect the following types of personal information:
+We may collect the following types of personal data:
 
 - Name, email address, phone number, and business details.
-- Payment information (processed securely by third-party payment processors).
-- Any information you voluntarily provide through forms, surveys, or direct communication.
+- Payment details (processed securely by third-party payment processors).
+- Any details you voluntarily provide through forms, surveys, or direct communication.
 
-### Automatically Collected Information
+### Automatically Collected Data
 
 When you visit our website, we may automatically collect:
 
-- IP address, browser type, device information, and operating system.
+- IP address, browser type, device identifiers, and operating system.
 - Pages visited, time spent on pages, and referring URLs.
-- Cookies and similar tracking technologies (see our Cookie Policy for more details).
+- Cookies and similar tracking technologies.
 
-## How We Use Your Information
+## How We Use Your Data
 
-We use your information to:
+We use the data we collect to:
 
 - Provide, operate, and improve our services.
 - Respond to inquiries and provide customer support.
@@ -47,13 +47,13 @@ We use your information to:
 - Analyze website usage and improve user experience.
 - Comply with legal obligations and enforce our terms of service.
 
-## Sharing of Personal Information
+## Sharing of Personal Data & Sub-Processors
 
-We do not sell, rent, or trade your personal information. However, we may share your information in the following circumstances:
+We do not sell, rent, or trade your personal data. However, we may share data in the following circumstances:
 
-- **Service Providers:** With trusted third-party vendors who assist us in operating our website, conducting business, or servicing you (e.g., payment processors, email marketing platforms).
+- **Service Providers & Sub-Processors:** With trusted third-party vendors and sub-processors who assist us in operating our website, CRM, analytics, payments, and communications under data processing agreements (including Google Analytics, LeadConnector / GoHighLevel, and Stripe).
 - **Legal Requirements:** When required by law, regulation, or legal process, or to protect our rights, property, or safety.
-- **Business Transfers:** In the event of a merger, acquisition, or sale of assets, your information may be transferred to the acquiring entity.
+- **Business Transfers:** In the event of a merger, acquisition, or sale of assets, customer records may be transferred to the acquiring entity.
 
 ## SMS Program & Opt-In Consent
 
@@ -102,9 +102,11 @@ Growth systems for service businesses. A website that converts, an AI receptioni
 
 ### Contact
 
+- [About Us](https://websynthiq.com/#about)
+- [Contact Us](https://websynthiq.com/#contact)
 - [(916) 235-9935](tel:+19162359935)
 - [info@websynthiq.com](mailto:info@websynthiq.com)
 - [Book a Free Growth Audit](https://websynthiq.com/#book)
 
-© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/about#about) · [Contact](https://websynthiq.com/contact#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
+© 2026 WEBsynthiq. All rights reserved. · [About](https://websynthiq.com/#about) · [Contact](https://websynthiq.com/#contact) · [Privacy Policy](https://websynthiq.com/privacy-policy) · [Terms & Conditions](https://websynthiq.com/terms-and-conditions)
 United States · Serving service businesses nationwide
