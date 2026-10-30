@@ -1,0 +1,37 @@
+# WEBsynthiq
+
+> WEBsynthiq is a Sacramento, California digital marketing agency for appointment-driven service businesses. It builds websites that convert, runs 24/7 AI receptionists, automates Google review collection, and manages Meta (Facebook and Instagram) ads, sold as flat monthly plans with no contracts and no setup fees.
+
+- Founded in 2025 by Fabian, a former aircraft dispatcher. Based in Sacramento, CA; serves Sacramento County and clients nationwide.
+- Who it's for: home services, HVAC, plumbing, roofing, electrical, landscaping, auto repair, dental, med spas, and other local businesses whose revenue depends on people calling and booking.
+- Contact: (916) 235-9935, info@websynthiq.com. Hours: Monday to Friday, 9am to 5pm Pacific.
+- 24/7 AI receptionist demo line: (916) 313-8661.
+- Every page below is also served as Markdown: request its normal URL with the header `Accept: text/markdown`.
+
+## Services
+
+- [Website Design](https://websynthiq.com/website-design): Fast, mobile-first websites for service businesses, built to turn visitors into booked jobs. Live in 2 to 4 days. Free website audit.
+- [AI Receptionist](https://websynthiq.com/ai-receptionist): Answers every call 24/7, books jobs into your calendar, texts the owner the details, and sends missed-call text-back.
+- [Google Review Management](https://websynthiq.com/google-reviews): Automatically asks every happy customer for a review, protects your rating, and lifts your Google Maps ranking.
+- [Meta Ads Management](https://websynthiq.com/meta-ads): Facebook and Instagram campaigns built, tracked, and optimized weekly around one number: cost per booked job.
+
+## Pricing
+
+- [Plans and pricing](https://websynthiq.com/#pricing): Three monthly plans, no contracts, no setup fees.
+  - Core System, $297/month: custom website with hosting and domain, 24/7 AI website chat agent, automated appointment reminders, automated Google review system, ongoing SEO.
+  - Call Capture System, $497/month: everything in Core plus a 24/7 AI receptionist, missed-call text-back, instant owner alerts, up to 750 AI minutes a month.
+  - All-Inclusive Growth System, $697/month: up to 1,500 AI minutes a month, with Meta Ads management included free ($300/month value). Ad budget is paid directly to Meta, minimum $20/day.
+  - Meta Ads management on its own: $300/month plus ad spend.
+  - Custom web build: from $499 flat plus $99/month.
+
+## Company
+
+- [Home](https://websynthiq.com/): Overview of the four services, results timeline, FAQ, and free growth audit.
+- [About](https://websynthiq.com/#about): Who runs WEBsynthiq and how it works with clients.
+- [Contact](https://websynthiq.com/#contact): Book a free growth audit or get in touch.
+
+## Optional
+
+- [Privacy Policy](https://websynthiq.com/privacy-policy)
+- [Terms and Conditions](https://websynthiq.com/terms-and-conditions)
+- [Sitemap](https://websynthiq.com/sitemap.xml)

@@ -89,6 +89,21 @@
     });
   });
 
+  // Smooth in-page scroll for /about#about and /contact#contact when target is on current page
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href$="#about"], a[href$="#contact"]');
+    if (!a) return;
+    var href = a.getAttribute('href');
+    var hash = href.slice(href.indexOf('#'));
+    var target = document.querySelector(hash);
+    if (target) {
+      e.preventDefault();
+      if (menu && menu.classList.contains('open')) btn.click();
+      target.scrollIntoView({ behavior: 'smooth' });
+      history.replaceState(null, '', hash);
+    }
+  });
+
   // ============ Growth Audit modal ============
   // Any [data-audit-open] element opens it (href="#book" stays as the no-JS fallback).
   // Submissions POST JSON straight to the GoHighLevel Inbound Webhook (CORS allows it).
